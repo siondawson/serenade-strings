@@ -86,3 +86,34 @@ body {
     position: relative;
     z-index: 1;
 }
+
+/* Gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0px;
+}
+
+#photos img {
+    width: 100%
+}
+/* sm screens and up */
+@media screen and (min-width: 576px){ 
+    #photos{
+        column-count: 1;
+    }
+}
+/* md screens and up */
+@media screen and (min-width: 768px){
+    #photos{
+        column-count: 2;
+    }
+}
+/* lg screens and up */
+@media screen and (min-width: 992px){
+    #photos{
+        column-count: 3;
+    }
+}

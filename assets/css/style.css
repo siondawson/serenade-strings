@@ -1,5 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /* navbar */
@@ -10,7 +17,7 @@ body {
     left: 0;
     padding-left: 0;
     padding-right: 0;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .navbar {

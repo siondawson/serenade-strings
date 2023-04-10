@@ -5,7 +5,7 @@ body {
 /* navbar */
 
 .navalert-container {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     padding-left: 0;
@@ -17,7 +17,7 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,1);
 }
 
 .navbar-brand {
@@ -116,4 +116,119 @@ body {
     #photos{
         column-count: 3;
     }
+}
+
+/* Contact */
+
+.form-section {
+    background: url("../images/kensingtonstrings-33.jpg") no-repeat center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: scroll;
+    
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 1 0 auto;
+
+}
+
+@media (min-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. Solution suggested by tutor Ed.*/
+    .form-section {
+        background: url("../images/kensingtonstrings-33.jpg") no-repeat center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-attachment: fixed;
+        
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex: 1 0 auto;
+    
+    }
+}
+
+.contact-form {
+    
+    color: #fff;
+    background-color: rgba(60,60,60,0.6);
+    max-width: 440px;
+    position: relative;
+    padding: 30px;
+    left: 10%
+    
+}
+
+@media screen and (max-width:510px) {   /* centers contact form div on small screens only (428px is iphone pro max screen width)*/
+    
+    .contact-form {
+        color: #fff;
+        background-color: rgba(60,60,60,0.6);
+        max-width: 440px;
+        position: relative;
+        padding: 30px;
+        left: 0%;
+    }
+}
+
+.contact-radio {
+    display: block;
+}
+
+.contact-form h1 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input-msg {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    
+}
+/* placeholder css from https://www.w3schools.com/howto/howto_css_placeholder.asp */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fafafa;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fafafa;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fafafa;
+  }
+
+  .msg-send-btn {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 22px 10px 22px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #b0b5a5;
+    color: #000000;
+    display: block;
+  }
+
+  .msg-send-btn:hover {
+    background-color: #8296ba;
+    color: #000000;
 }

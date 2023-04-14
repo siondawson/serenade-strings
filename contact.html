@@ -15,7 +15,16 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Kensington Strings</title>    
+    <title>Kensington Strings</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("PtwW0RBXA5X6GRE9u");
+        })();
+    </script>
+    <script src="assets/js/sendEmail.js"></script>
 </head>
 <body>
     <header>
@@ -60,7 +69,7 @@
             <!-- contact form container-->
             <div class="container-fluid form-section pt-5">
                 <!-- contact form -->
-                <form action="thank_you.html" class="contact-form">
+                <form onsubmit="return sendMail(this);" class="contact-form">
                     <h1>
                         Get In Touch
                     </h1>
@@ -72,7 +81,7 @@
                     <label for="contact-number">Contact Number</label>
                         <input type="tel" class="text-input" id="contact-number" name="contact-number" placeholder="07123 456789">
                     <label for="email">Email</label>
-                        <input type="email" class="text-input" id="email" name="email" placeholder="youremail@example.com" required>
+                        <input type="emailaddress" class="text-input" id="email" name="email" placeholder="youremail@example.com" required>
                     <!-- radio buttons -->
                     <p>Where did you hear about me?</p>
                     <label for="google" class="contact-radio">
@@ -89,9 +98,9 @@
                         <label for="message">Message</label>
                             <textarea name="message" class="text-input-msg" id="message" cols="30" rows="10" placeholder="Tell me about your wedding..." required></textarea>
                     <!-- submit btn -->
-                        <div class="col d-flex justify-content-center">
-                            <button type="submit" class="btn btn-primary">Send Message</button>
-                        </div>
+                    <div class="col d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
                     </div>  
                 </form>    
             </div>
@@ -101,6 +110,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
     
 </html>

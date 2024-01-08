@@ -1,0 +1,24 @@
+{
+    "American": [
+        "Down By The River",
+        "House of the Rising Sun",
+        "St James Infirmary",
+        "Teddy Bears Picnic",
+        "This Little Light of Mine",
+        "He’s Got The Whole World in His Hands"
+    ],
+    "Czech": ["Myava"],
+    "English": [
+        "For He’s a Jolly Good Fellow",
+        "Nearer My God to Thee",
+        "Scarborough Fair"
+    ],
+    "Irish": ["Danny Boy", "Jig Medley"],
+    "Italian": ["Bella Ciao", "Tarantella Napoletana"],
+    "Jewish": ["Hava Nagila"],
+    "Mexican": ["La Bamba", "La Cucaracha", "Mexican Hat Dance"],
+    "Russian": ["Korobeniki & Kalinka", "Korobushka"],
+    "Sea Shanty": ["The Drunken Sailor"],
+    "Enoch Sontonga": ["Nkosi Sikelel' iAfrika"],
+    "Welsh": ["Calon Lan", "Cwm Rhondda"]
+}

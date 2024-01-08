@@ -1,0 +1,523 @@
+{
+  "ABBA": [
+    "I Do, I Do, I Do, I Do, I Do",
+    "Dancing Queen"
+  ],
+  "AC/DC": [
+    "Highway To Hell"
+  ],
+  "Aerosmith": [
+    "I Don’t Want to Miss a Thing"
+  ],
+  "Alicia Keys": [
+    "If I Ain’t Got You"
+  ],
+  "Aretha Franklin": [
+    "Say a Little Prayer"
+  ],
+  "Ariana Grande": [
+    "Thank u, next"
+  ],
+  "Adele": [
+    "Rolling in the Deep",
+    "Make You Feel My Love",
+    "Skyfall"
+  ],
+  "Apex Twin": [
+    "Avril 14th"
+  ],
+  "Artic Monkeys": [
+    "Mardy Bum"
+  ],
+  "American Authors": [
+    "Best Day of My Life"
+  ],
+  "Avicii": [
+    "Hey Brother",
+    "Wake Me Up"
+  ],
+  "The Beach Boys": [
+    "God Only Knows",
+    "Wouldn’t It Be Nice"
+  ],
+  "The Beatles": [
+    "Across The Universe",
+    "Here Come The Sun",
+    "In My Life",
+    "I Saw Her Standing There",
+    "I Want To Hold Your Hand",
+    "When I’m Sixty Four",
+    "All You Need is Love",
+    "Eleanor Rigby",
+    "Yesterday",
+    "With a Little Help From My Friends"
+  ],
+  "Bee Gees": [
+    "How Deep is Your Love"
+  ],
+  "Ben Howard": [
+    "Only Love"
+  ],
+  "Beyoncè": [
+    "Ave Maria",
+    "Crazy In Love",
+    "Formation",
+    "Love on Top",
+    "Sandcastles",
+    "Single Ladies (Put a Ring on It)",
+    "Halo",
+    "XO"
+  ],
+  "Bill Medley": [
+    "(I’ve Had) The Time of My Life"
+  ],
+  "Bill Withers": [
+    "Lovely Day"
+  ],
+  "Black Eyed Peas": [
+    "I Gotta Feeling"
+  ],
+  "Billie Eilish": [
+    "Bad Guy"
+  ],
+  "Blur": [
+    "The Universal"
+  ],
+  "Bob Dylan": [
+    "Make You Feel My Love"
+  ],
+  "Bob Marley": [
+    "Is This Love",
+    "Three Little Birds"
+  ],
+  "Bon Iver": [
+    "8 (circle)"
+  ],
+  "Brian Ferry": [
+    "Let’s Stick Together"
+  ],
+  "Britney Spears": [
+    "Toxic"
+  ],
+  "Bruno Mars": [
+    "Just The Way You Are/ Amazing",
+    "Locked Out of Heaven",
+    "Marry You"
+  ],
+  "Bryan Adams": [
+    "(Everything I Do) I Do It For You",
+    "Summer of ’69"
+  ],
+  "Calum Scott": [
+    "You are the Reason"
+  ],
+  "Camila Cabello": [
+    "Havana"
+  ],
+  "Cinematic Orchestra": [
+    "Arrival of the Birds"
+  ],
+  "Cristina Perri": [
+    "A Thousand Years"
+  ],
+  "Eric Clapton": [
+    "Wonderful Tonight"
+  ],
+  "Clean Bandit": [
+    "Rather Be",
+    "Rockabye"
+  ],
+  "Coldplay": [
+    "A Sky Full of Stars",
+    "Adventure of a Lifetime",
+    "Clocks",
+    "Paradise",
+    "Something Just Like This",
+    "The Scientist",
+    "Viva La Vida",
+    "Yellow"
+  ],
+  "Counting Crows": [
+    "Accidentally In Love"
+  ],
+  "Sam Cooke": [
+    "Bring it on Home to Me"
+  ],
+  "The Cure": [
+    "Friday I’m in Love"
+  ],
+  "Cyndi Lauper": [
+    "Time After Time",
+    "True Colours"
+  ],
+  "Daft Punk": [
+    "Get Lucky"
+  ],
+  "Damien Rice": [
+    "The Blowers Daughter"
+  ],
+  "David Bowie": [
+    "Heroes",
+    "Life on Mars"
+  ],
+  "David Guetta ft. Sia": [
+    "Titanium"
+  ],
+  "Destiny’s Child": [
+    "Survivor",
+    "Independent Woman"
+  ],
+  "Des’ree": [
+    "Kissing You"
+  ],
+  "The Doors": [
+    "Riders on the Storm"
+  ],
+  "The Eagles": [
+    "Hotel California"
+  ],
+  "Earth, Wind & Fire": [
+    "September"
+  ],
+  "Ed Sheeran": [
+    "Perfect",
+    "Photograph",
+    "Shape of You",
+    "Thinking Out Loud"
+  ],
+  "Edward Sharpe & The Magnetic Zeroes": [
+    "Home"
+  ],
+  "Elbow": [
+    "One Day Like This"
+  ],
+  "Ellie Golding": [
+    "How Long Will I Love You?",
+    "Love Me Like You Do"
+  ],
+  "ELO": [
+    "Mr. Blue Sky",
+    "Rock ’N’ Roll is King",
+    "Shine a Little Love",
+    "Standin’ in the Rain",
+    "Sweet Talkin’ Woman",
+    "Wild West Hero",
+    "Strange Magic"
+  ],
+  "Elton John": [
+    "Can You Feel the Love Tonight",
+    "Crocodile Rock",
+    "Your Song"
+  ],
+  "Elvis": [
+    "Always On My Mind",
+    "Blue Moon",
+    "Can’t Help Falling in Love"
+  ],
+  "Eurythmics": [
+    "Sweet Dreams"
+  ],
+  "Evanescence": [
+    "Bring Me To Life"
+  ],
+  "Fleetwood Mac": [
+    "Songbird",
+    "Everywhere"
+  ],
+  "Florence + The Machine": [
+    "You’ve Got The Love"
+  ],
+  "Foo Fighters": [
+    "Everlong"
+  ],
+  "Foster The People": [
+    "Pumped Up Kicks"
+  ],
+  "Frank Sinatra": [
+    "Fly Me To The Moon",
+    "Strangers in the Night"
+  ],
+  "Franki Valli": [
+    "Cant Take My Eyes off You"
+  ],
+  "Frozen": [
+    "Let it Go"
+  ],
+  "Gnarls Barkley": [
+    "Crazy"
+  ],
+  "Goo Goo Dolls": [
+    "Iris"
+  ],
+  "Green Day": [
+    "Time of Your Life"
+  ],
+  "Guns ’n’ Roses": [
+    "Sweet Child of Mine"
+  ],
+  "Harry Styles": [
+    "Sign of the Times",
+    "Watermelon Sugar"
+  ],
+  "Hansard": [
+    "Slowly Falling"
+  ],
+  "Hozier": [
+    "Take Me To Church"
+  ],
+  "Iron & Wine": [
+    "Flightless Bird, American Mouth"
+  ],
+  "Israel Kamakawiwo’ole": [
+    "Somewhere Over The Rainbow"
+  ],
+  "Jack Johnson": [
+    "Better Together"
+  ],
+  "The Jackson 5": [
+    "I Want You Back"
+  ],
+  "James Brown": [
+    "I Got You (I Feel Good)"
+  ],
+  "Jennifer Rush": [
+    "The Power of Love"
+  ],
+  "Jason Mraz": [
+    "I’m Yours"
+  ],
+  "John Legend": [
+    "All of Me"
+  ],
+  "John Boden": [
+    "How Long Will I Love You?"
+  ],
+  "Journey": [
+    "Don’t Stop Believin’",
+    "Open Arms"
+  ],
+  "Justin Timberlake": [
+    "Can’t Stop The Feeling"
+  ],
+  "Kanye West": [
+    "Gold Digger"
+  ],
+  "Katrina and the Waves": [
+    "I’m Walking on Sunshine"
+  ],
+  "Keane": [
+    "Somewhere Only We Know"
+  ],
+  "Kenny G": [
+    "The Wedding Song"
+  ],
+  "Khalid": [
+    "Better"
+  ],
+  "The Killers": [
+    "Mr. Brightside"
+  ],
+  "Ben E. King": [
+    "Stand By Me"
+  ],
+  "Lady Gaga": [
+    "Shallow (A Star is Born)"
+  ],
+  "Led Zeppelin": [
+    "Kashmir",
+    "Stairway To Heaven"
+  ],
+  "Leonard Cohen": [
+    "Hallelujah"
+  ],
+  "Linkin Park": [
+    "Numb"
+  ],
+  "Lionel Richie": [
+    "Endless Love"
+  ],
+  "Louis Armstrong": [
+    "What a Wonderful World"
+  ],
+  "Luis Fonsi": [
+    "Despacito"
+  ],
+  "Luke Combs": [
+    "Beautiful Crazy"
+  ],
+  "Lynyrd Skynyrd": [
+    "Sweet Home Alabama"
+  ],
+  "Madness": [
+    "It Must Be Love"
+  ],
+  "Mark Knopfler": [
+    "Storybook Love"
+  ],
+  "Mark Ronson": [
+    "Uptown Funk"
+  ],
+  "Maroon 5": [
+    "Girls Like You"
+  ],
+  "McFly": [
+    "It’s All About You"
+  ],
+  "Meghan Trainor": [
+    "All About That Bass"
+  ],
+  "Mettalica": [
+    "Nothing Else Matters"
+  ],
+  "Michael Jackson": [
+    "Rock With You",
+    "Thriller"
+  ],
+  "Miley Cirus": [
+    "Wrecking Ball"
+  ],
+  "Muse": [
+    "Knights of Cydonia",
+    "Starlight",
+    "Time is Running Out",
+    "Unintended"
+  ],
+  "Natalie Cole": [
+    "This Will Be (Everlasting Love)"
+  ],
+  "Neil Diamond": [
+    "Sweet Caroline"
+  ],
+  "Neil Young": [
+    "Love is a Rose"
+  ],
+  "Nick Cave": [
+    "Red Right Hand",
+    "The Ship Song",
+    "The Weeping Song"
+  ],
+  "Nick Cave/ Kylie Minogue": [
+    "Where The Wild Roses Grow"
+  ],
+  "Nina Simone": [
+    "L.O.V.E"
+  ],
+  "Nora Jones": [
+    "Don’t Know Why"
+  ],
+  "Oasis": [
+    "Champagne Supernova",
+    "Don’t Look Back in Anger",
+    "Half The World Away",
+    "Whatever",
+    "Wonderwall"
+  ],
+  "Of Monsters and Men": [
+    "Little Talks"
+  ],
+  "Owl City": [
+    "Fireflies"
+  ],
+  "Paramore": [
+    "The Only Exception"
+  ],
+  "Percy Sledge": [
+    "When a Man Loves a Woman"
+  ],
+  "Peter Gabriel": [
+    "The Book of Love"
+  ],
+  "Pharrell Williams": [
+    "Happy"
+  ],
+  "Phil Collins": [
+    "Groovy Kind of Love",
+    "You’ll Be in My Heart"
+  ],
+  "Pink": [
+    "Just Give Me a Reason"
+  ],
+  "Pixies": [
+    "Here Comes Your Man",
+    "Where is My Mind?"
+  ],
+  "The Pogues": [
+    "Fairytale of New York"
+  ],
+  "The Police": [
+    "Every Breath You Take"
+  ],
+  "The Pretenders": [
+    "I’ll Stand By You"
+  ],
+  "Queen": [
+    "Bohemian Rhapsody",
+    "Somebody to Love",
+    "We Are The Champions",
+    "You’re My Best Friend",
+    "Crazy Little Thing Called Love",
+    "Don’t Stop Me Now"
+  ],
+  "Radiohead": [
+    "Karma Police",
+    "Motion Picture Soundtrack"
+  ],
+  "Rick Astley": [
+    "Never Gonna Give You Up"
+  ],
+  "Rhianna & Calvin Harris": [
+    "We Found Love"
+  ],
+  "The Rolling Stones": [
+    "Paint It Black"
+  ],
+  "Ruelle": [
+    "I Get To Love You"
+  ],
+  "Sade": ["By Your Side"],
+  "Sam Cooke": ["Bring It On Home"],
+  "Sam Smith": ["Stay With Me"],
+  "Shapeshifters": ["Lola's Theme"],
+  "Shawn Mendes": ["In My Blood"],
+  "Swedish House Mafia": ["Don’t You Worry Child"],
+  "Sia": ["Chandelier", "Cheap Thrills"],
+  "Sigur Ros": ["Hoppipolla"],
+  "Sixpense None The Richer": ["Kiss Me"],
+  "The Smiths": ["Please, Please Please, Let Me Get What I Want"],
+  "Snow Patrol": ["Chasing Cars"],
+  "Stevie Wonder": [
+    "Isn’t She Lovely",
+    "Signed, Sealed, Delivered, I’m Yours",
+    "You are the Sunshine of my Life"
+  ],
+  "Sting": ["Fields of Gold", "Roxanne"],
+  "Take That": ["Greatest Day"],
+  "Taylor Swift": [
+    "Invisible String",
+    "Lover",
+    "Love Story",
+    "Wildest Dreams"
+  ],
+  "Tears for Fears": ["Everybody Wants to Rule The World"],
+  "The Temptations": ["My Girl"],
+  "Tom Jones": ["Delilah"],
+  "Tom Odell": ["Another Love"],
+  "Toploader": ["Dancing in the Moonlight"],
+  "Toto": ["Africa"],
+  "Train": [
+    "Drops of Jupiter (Tell Me)",
+    "Marry Me"
+  ],
+  "The Turtles": ["Happy Together"],
+  "Van Morrison": [
+    "Have I Told You Lately",
+    "Moondance"
+  ],
+  "The Verve": ["Bittersweet Symphony"],
+  "Walk The Moon": ["Shut Up and Dance"],
+  "Willie Nelson": ["Bring Me Sunshine"],
+  "Whitney Houston": ["I Wanna Dance With Somebody"]
+
+  
+
+}

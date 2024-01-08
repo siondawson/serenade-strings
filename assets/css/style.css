@@ -1,13 +1,11 @@
-body {
+html, body {
     font-family: 'Roboto', sans-serif;;
+    height: 100%;
+    margin: 0;
+    padding: 0;
     width: 100%;
     overflow-x: hidden;
-}
-
-html {
-    width: 100%;
-    overflow-x: hidden;
-}
+  }
 
 /* navbar */
 
@@ -239,3 +237,18 @@ html {
     background-color: #8296ba;
     color: #000000;
 }
+
+/* Repertoire */
+
+.accordion-body {
+    padding: 0 !important;
+}
+
+/* footer */
+
+  .footer {
+    background-color: #000000;
+    color: #fff;
+  }
+
+  

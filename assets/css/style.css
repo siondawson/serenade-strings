@@ -22,7 +22,7 @@ html, body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,1);
+    background-color: #aeced0;
 }
 
 .navbar-brand {
@@ -240,15 +240,19 @@ html, body {
 
 /* Repertoire */
 
-.accordion-body {
-
+#rock-pop-list,
+#classical-list,
+#film-list,
+#jazz-list,
+#traditional-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
 }
 
 /* footer */
 
-  .footer {
-    background-color: #000000;
-    color: #fff;
+.footer {
+    background-color: #aeced0;
   }
 
   

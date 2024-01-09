@@ -7,6 +7,19 @@ html, body {
     overflow-x: hidden;
   }
 
+/* background colors */
+
+.background-blue {
+    background-color: #aeced0;
+}
+
+/* fonts */
+
+.big-icons {
+    font-size: 400%;
+}
+
+
 /* navbar */
 
 .navalert-container {
@@ -23,6 +36,7 @@ html, body {
     border: 0;
     width: 100%;
     background-color: #aeced0;
+    height: 10vh;
 }
 
 .navbar-brand {
@@ -90,6 +104,21 @@ html, body {
 .jumbotron {
     position: relative;
     z-index: 1;
+}
+
+/* about */
+
+.image-banner {
+    position: relative;
+    text-align: center; /* Center the image */
+    overflow: hidden; /* Hide overflow if the image exceeds container width */
+}
+
+.image-banner img {
+    width: 100%; /* Set image width to fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline display */
+    clip-path: polygon(0 17%, 100% 17%, 100% 100%, 0 80%);
 }
 
 /* Gallery */

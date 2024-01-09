@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Kensington Strings</title>    
+    <title>Avon Strings - String Quartet in Cardiff and London</title>    
 </head>
 <body>
     <header>
@@ -29,36 +29,36 @@
                     </div>
                 </div>
              </div>
-            <nav class="navbar navbar-expand-lg navbar-light">
+             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                <a class="navbar-brand text-dark" href="index.html">Avon Strings</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Weddings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="repertoire.html">Repertoire</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    </ul>
+                    <a class="navbar-brand text-dark" href="index.html">Avon Strings</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="repertoire.html">Repertoire</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                </div>
-            </nav>
+            </nav>            
         </div>
     </header>
     <main>
@@ -98,6 +98,77 @@
                 <div class="row">
                     <div class="col-12 text-center p-5">
                         <a href="" class="btn btn-primary">See More Videos and Media!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center p-5">
+                        <h2>Why book us?</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 text-center">
+                        <i class="fas fa-music fa-lg big-icons pb-3"></i>
+                        <h3>Top class musicians</h3>
+                        <p>All our musicians are trained to the highest standard at prestigious conservatories</p>
+                    </div>
+               
+                    <div class="col-sm-12 col-md-4 text-center">
+                        <i class="fas fa-scroll fa-lg big-icons pb-3"></i>
+                        <h3>Playing the best repertoire</h3>
+                        <p>something about how great the repertoire is</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 text-center">
+                        <i class="fas fa-tablet-alt big-icons pb-3"></i>
+                        <h3>Digital Repertoire</h3>
+                        <p>we use ipads so weve always go all our music.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h2>Secure your date today!</h2>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <form onsubmit="return sendMail(this);" class="home-contact-form">
+                            <h2>
+                                Get In Touch
+                            </h2>
+                            <p>
+                                Fill out the form below for a free, no obligation quote. I aim to respond to all enquries on the day. If you don't recieve a reply please check your junk. Alternatively you can call me direct on 07792 091467.
+                            </p>
+                            <label for="name">Name</label>
+                                <input type="text" class="text-input" id="name" name="name" placeholder="Your Name" required>
+                            <label for="contact-number">Contact Number</label>
+                                <input type="tel" class="text-input" id="contact-number" name="contact-number" placeholder="07123 456789">
+                            <label for="email">Email</label>
+                                <input type="email" class="text-input" id="email" name="email" placeholder="youremail@example.com" required>
+                            <!-- radio buttons -->
+                            <p>Where did you hear about us?</p>
+                            <label for="google" class="contact-radio">
+                                <input type="radio" id="google" name="where-did-you-hear" value="google" required> Google Search
+                            </label>
+                            <label for="instagram" class="contact-radio">
+                                <input type="radio" id="instagram" name="where-did-you-hear" value="instagram" required> Instagram
+                            </label> 
+                            <label for="recommendation" class="contact-radio">
+                                <input type="radio" id="recommendation" name="where-did-you-hear" value="recommendation" required> Recommendation
+                            </label>
+                            <!-- text area -->
+                            <div class="pt-3">  
+                                <label for="message">Message</label>
+                                    <textarea name="message" class="text-input-msg" id="message" cols="30" rows="10" placeholder="Tell us about your wedding..." required></textarea>
+                            <!-- submit btn -->
+                            <div class="col d-flex justify-content-center">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>  
+                        </form> 
                     </div>
                 </div>
             </div>

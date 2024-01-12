@@ -59,7 +59,7 @@
     <main>
         <!-- callout -->
         <section>
-            <div class="container-fluid callout-container">
+            <div class="container-fluid callout-container" id="parallax">
                 <div class="opaque-overlay">&nbsp;</div>
                 <div class="row">
                     <div class="col-12">
@@ -147,7 +147,13 @@
         
         
         
-
+        <script>
+            window.addEventListener('scroll', function () {
+                const parallax = document.getElementById('parallax');
+                const scrolled = window.scrollY;
+                parallax.style.backgroundPositionY = -(scrolled * 0.3) + 'px'; // Adjust the multiplier for the desired parallax effect
+            });
+        </script>
   
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

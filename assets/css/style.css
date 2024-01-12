@@ -98,6 +98,15 @@ p, a, button {
     background-color: rgba(0,0,0,0.3);
 }
 
+.jumbotron {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 5rem;
+    margin-top: 25vh; /* Adjust this value based on your design */
+}
+
 /* Block Dividers */
 
 .block-divider {
@@ -116,10 +125,10 @@ p, a, button {
     margin-bottom: 30px;
 }
 
-.jumbotron {
+/* .jumbotron {
     position: relative;
     z-index: 1;
-}
+} */
 
 /* about */
 

@@ -22,7 +22,7 @@ function sendEmail(event) {
                 document.getElementById("message").value = "";
                 document.querySelector('input[name="where-did-you-hear"]:checked').checked = false; // Clear radio button selection
                 console.log(res);
-                alert("Your message sent successfully");
+                alert("Your message sent successfully. If no reply within 24 hours please check your spam!");
             }
         )
         .catch((err) => {

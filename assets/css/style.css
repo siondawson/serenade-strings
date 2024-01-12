@@ -116,9 +116,10 @@ html, body {
 
 .image-banner img {
     width: 100%; /* Set image width to fill the container */
-    height: auto; /* Maintain aspect ratio */
+    height: 550px; /* Maintain aspect ratio */
     display: block; /* Remove default inline display */
-    clip-path: polygon(0 17%, 100% 17%, 100% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    object-fit: cover;
 }
 
 /* Gallery */

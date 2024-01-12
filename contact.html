@@ -9,22 +9,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Kensington Strings</title>
+    <title>Contact Us | Avon Strings</title>
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
+     <script src="assets/js/sendEmail.js"></script>
+    <!-- email js -->
     <script type="text/javascript">
-        (function(){
-            emailjs.init("PtwW0RBXA5X6GRE9u");
-        })();
+    (function(){
+    emailjs.init("PtwW0RBXA5X6GRE9u");
+    })();
     </script>
-    <script src="assets/js/sendEmail.js"></script>
+   
 </head>
 <body>
     <header>
@@ -69,7 +66,7 @@
             <!-- contact form container-->
             <div class="container-fluid form-section pt-5">
                 <!-- contact form -->
-                <form onsubmit="return sendMail(this);" class="contact-form">
+                <form onsubmit="return sendMail(this);" class="contact-form" id="contact-form">
                     <h1>
                         Get In Touch
                     </h1>
@@ -99,7 +96,7 @@
                             <textarea name="message" class="text-input-msg" id="message" cols="30" rows="10" placeholder="Tell us about your wedding..." required></textarea>
                     <!-- submit btn -->
                     <div class="col d-flex justify-content-center">
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="submit" class="btn btn-primary" onclick="sendEmail()">Send Message</button>
                     </div>  
                 </form>    
             </div>

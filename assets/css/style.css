@@ -77,6 +77,11 @@ p, a, button {
 
 .callout-container {
     height: 100vh;
+    background: url('../images/kensingtonstrings-31.jpg') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -84,7 +89,7 @@ p, a, button {
     justify-content: center;
 }
 
-.callout-container::before {
+/* .callout-container::before {
     content: "";
     position: absolute;
     top: 0;
@@ -97,7 +102,7 @@ p, a, button {
     -o-background-size: cover;
     background-size: cover;
     z-index: -1;
-}
+} */
 
 .opaque-overlay {
     position: absolute;

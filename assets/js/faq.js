@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const faqItem = document.createElement('div');
                 faqItem.innerHTML = `
                     <h3>${question}</h3>
+                    <hr>
                     <p>${answer}</p>
                 `;
                 faqsContainer.appendChild(faqItem);

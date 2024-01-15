@@ -90,11 +90,11 @@ p, a, button {
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
-    /* position: absolute; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 @media (max-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. Solution suggested by tutor Ed.*/
     .callout-container {
@@ -145,6 +145,10 @@ p, a, button {
     padding: 5rem;
     background-color: #0000005e;
     margin-bottom: 20px;
+}
+
+.jumbotron.remove-background {
+    background-color: transparent !important;
 }
 
 

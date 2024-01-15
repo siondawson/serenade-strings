@@ -51,8 +51,8 @@ document.addEventListener("DOMContentLoaded", function () {
         loadedVideoContainer.innerHTML = `
         <div class="container">
           <h3 class="text-center">${videoTitle}</h3>
-          <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center align-items-center">
-            <iframe class="embed-responsive-item w-100 w-md-75" 
+          <div class="video-wrapper embed-responsive embed-responsive-16by9 d-flex justify-content-center align-items-center">
+            <iframe class="embed-responsive-item" 
                     src="https://www.youtube.com/embed/${videoId}" 
                     title="YouTube video player" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

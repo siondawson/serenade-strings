@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('assets/json/gallery.json')
       .then(response => response.json())
       .then(images => {
-        // Shuffle the array
-        const shuffledImages = shuffleArray(images);
+        // Shuffle the array to randomise image order.
+        const shuffledImages = images.sort(() => Math.random() - 0.5);
   
         // Append each shuffled image to the container
         shuffledImages.forEach(image => {
@@ -17,14 +17,5 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       })
       .catch(error => console.error('Error fetching gallery:', error));
-  
-    // Function to shuffle an array
-    function shuffleArray(array) {
-      for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-      }
-      return array;
-    }
   });
   

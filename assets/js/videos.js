@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Load the first video
             if (data.length > 0) {
-                loadVideo(data[0].videoId);
+                loadVideo(data[0].videoId, data[0].title);
             }
         })
         .catch(error => console.error('Error fetching videos:', error));
@@ -30,29 +30,35 @@ document.addEventListener("DOMContentLoaded", function () {
             const title = document.createElement('span');
             title.textContent = video.title;
 
+            const playIcon = document.createElement('i');
+            playIcon.classList.add('fas', 'fa-play-circle', 'play-icon');
+
             // Attach click event to load the video
             listItem.addEventListener('click', function () {
-                loadVideo(video.videoId);
+                loadVideo(video.videoId, video.title);
             });
 
             listItem.appendChild(thumbnail);
             listItem.appendChild(title);
+            listItem.appendChild(playIcon);
 
             videoList.appendChild(listItem);
         });
     }
 
     // Function to load the video
-    function loadVideo(videoId) {
+    function loadVideo(videoId, videoTitle) {
         loadedVideoContainer.innerHTML = `
-            <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center align-items-center">
-                <iframe class="embed-responsive-item" 
-                        src="https://www.youtube.com/embed/${videoId}" 
-                        title="YouTube video player" frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                </iframe>
-            </div>
-        `;
+        <div class="container">
+          <h3 class="text-center">${videoTitle}</h3>
+          <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center align-items-center">
+            <iframe class="embed-responsive-item w-100 w-md-75" 
+                    src="https://www.youtube.com/embed/${videoId}" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+            </iframe>
+          </div>
+        </div>`;
     }
 });

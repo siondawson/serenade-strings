@@ -1,22 +1,22 @@
 [
     {
         "title": "Wildest Dreams",
-        "thumbnail": "assets/images/thumbnails/avon-thumbnail-1.jpg",
+        "thumbnail": "assets/images/thumbnails/avon-thumbnail-2.jpeg",
         "videoId": "https://www.youtube.com/embed/YkRrbGVsJnw?si=cI1PQTHeXrsjID7V"
     },
     {
         "title": "Colors of the Wind",
-        "thumbnail": "assets/images/thumbnails/avon-thumbnail-2.jpg",
+        "thumbnail": "assets/images/thumbnails/avon-thumbnail-2.jpeg",
         "videoId": "https://www.youtube.com/embed/8haRGBA8c1o?si=PdMDOgcH7yc_W4j9"
     },
     {
         "title": "Thank U, Next",
-        "thumbnail": "assets/images/thumbnails/avon-thumbnail-2.jpg",
+        "thumbnail": "assets/images/thumbnails/avon-thumbnail-2.jpeg",
         "videoId": "https://www.youtube.com/embed/BBvYeD8sJ1w?si=J28C3-qYEvGDJt_c"
     },
     {
         "title": "Mr. Blue Sky",
-        "thumbnail": "assets/images/thumbnails/avon-thumbnail-2.jpg",
+        "thumbnail": "assets/images/thumbnails/avon-thumbnail-2.jpeg",
         "videoId": "https://www.youtube.com/embed/w7d3EDCbiLo?si=tXlnzj5JWOuH-4bG"
     }
 ]

@@ -62,6 +62,13 @@ p, a, button {
     /* font-weight: bold; */
 }
 
+.navbar-home {
+    background-color: #0000007d;
+    transition: background-color 0.5s ease;
+    position: absolute; 
+    width: 100%;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -77,16 +84,33 @@ p, a, button {
 
 .callout-container {
     height: 100vh;
-    background: url('../images/kensingtonstrings-31.jpg') no-repeat bottom center fixed;
+    background: url('../images/avon-strings-31.jpg') no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
-    /* position: relative; */
+    /* position: absolute; */
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. Solution suggested by tutor Ed.*/
+    .callout-container {
+        background: url("../images/avon-strings-2.jpg") no-repeat center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-attachment: fixed !important;
+        
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex: 1 0 auto;
+    
+    }
 }
 
 /* .callout-container::before {
@@ -240,7 +264,7 @@ p, a, button {
 /* Contact */
 
 .form-section {
-    background: url("../images/kensingtonstrings-33.jpg") no-repeat center fixed; 
+    background: url("../images/avon-strings-33.jpg") no-repeat center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -256,7 +280,7 @@ p, a, button {
 
 @media (min-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. Solution suggested by tutor Ed.*/
     .form-section {
-        background: url("../images/kensingtonstrings-33.jpg") no-repeat center fixed; 
+        background: url("../images/avon-strings-33.jpg") no-repeat center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;

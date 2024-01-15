@@ -62,11 +62,12 @@ p, a, button {
     /* font-weight: bold; */
 }
 
-.navbar-home {
+.navbar-home { /* transparent nav bar applied to home page only. */
     background-color: #0000007d;
     transition: background-color 0.5s ease;
     position: absolute; 
     width: 100%;
+    z-index: 10;
 }
 
 .alert-container .col-12 {
@@ -149,6 +150,7 @@ p, a, button {
 
 .jumbotron.remove-background {
     background-color: transparent !important;
+    z-index: 0;
 }
 
 

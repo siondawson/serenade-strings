@@ -90,6 +90,10 @@ p, a, button {
     z-index: 10;
 }
 
+.nav-link {
+    padding-left: 5px !important;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;

@@ -1,11 +1,30 @@
-html, body {
+html {
+    overflow-x: hidden;
+    /* height: 100%;
+    width: 100%; */
+}
+
+body {
     font-family: 'Roboto', sans-serif;;
-    height: 100%;
+    /* height: 100%;
+    width: 100%; */
     margin: 0;
     padding: 0;
-    width: 100%;
-    /* overflow-x: hidden; */
+    
   }
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-toggler {
+    padding-right: 20px;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+}
 
 /* background colors */
 
@@ -56,10 +75,10 @@ p, a, button {
 
 .navbar {
     /* margin-bottom: 0;
-    border: 0;
-    width: 100%; */
-    background-color: #aeced0;
+    border: 0; /*
     /* height: 10vh; */
+    width: 100%;
+    background-color: #aeced0;
 }
 
 .navbar-brand {
@@ -134,8 +153,8 @@ p, a, button {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    z-index: -1;
-} */
+    z-index: -1; */
+}
 
 /* .opaque-overlay {
     position: absolute;
@@ -151,7 +170,7 @@ p, a, button {
     z-index: 1;
     color: white;
     text-align: center;
-    padding: 5rem;
+    padding: 2.5rem;
     background-color: #0000005e;
     margin-bottom: 20px;
 }
@@ -181,7 +200,7 @@ p, a, button {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 0;
+    
 }
 
 

@@ -32,6 +32,10 @@ body {
     background-color: #aeced0;
 }
 
+.bg-off-white {
+    background-color: #fafafa;
+}
+
 /* fonts */
 
 .logo-font {
@@ -61,6 +65,37 @@ p, a, button {
     margin: 0 auto;
 } 
 
+/* buttons */
+
+.btn-primary {
+    background-color: #9190A7;
+    border-radius: 0;
+    border-color: #fafafa;
+    border-width: 3px;
+}
+
+.btn-primary:hover {
+    background-color: #fafafa;
+    border-radius: 0;
+    border-color: #000000;
+    border-width: 3px;
+    color: #000000;
+}
+
+.btn-success {
+    background-color: #aeced0;
+    border-radius: 0;
+    border-color: #fafafa;
+    border-width: 3px;
+}
+
+.btn-success:hover {
+    background-color: #fafafa;
+    border-radius: 0;
+    border-color: #fafafa;
+    border-width: 3px;
+    color: #000000;
+}
 
 /* navbar */
 

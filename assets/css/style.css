@@ -401,7 +401,7 @@ p, a, button {
     justify-content: center;
     position: relative;
     flex: 1 0 auto;
-    height: 110vh;
+    height: 105vh;
 
 }
 
@@ -526,5 +526,12 @@ p, a, button {
 
 .footer-icon-list {
     list-style: none;
+    padding-left: 0;
+    
+}
+
+.footer-icon-list a {
+    text-decoration: none !important;
+    color: #000000;
 }
   

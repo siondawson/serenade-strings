@@ -99,21 +99,21 @@
         <section>
             <div class="container pt-5 pb-5">
                 <div class="row">
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-12 col-lg-4">
                         <h3>Avon Strings</h3>
-                        <h4>In brief:</h4>
-                        <ul>
-                            <li>list 1</li>
-                            <li>list 1</li>
-                            <li>list 1</li>
-                            <li>list 1</li>
-                            <li>list 1</li>
-                            <li>list 1</li>
-                            <li>list 1</li>
+                        <h4>In breif:</h4>
+                        <ul class="in-brief-list">
+                            <li><i class="far fa-check-circle"></i> Bespoke packages to suit you</li>
+                            <li><i class="far fa-check-circle"></i> Happy to learn new songs for your booking!</li>
+                            <li><i class="far fa-check-circle"></i> Versatile & Professional Performers</li>
+                            <li><i class="far fa-check-circle"></i> Unique Arrangements of Pop, Rock, Classical & More</li>
+                            <li><i class="far fa-check-circle"></i> Vast repertoire covering all styles</li>
+                            <li><i class="far fa-check-circle"></i> Available U.K. wide and abroad.</li>
+                            <li><i class="far fa-check-circle"></i> Dedicated band leader, committed to ensuring the success of your event.</li>
 
                         </ul>
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-12 col-lg-8">
                         <h3>Biography:</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore alias magni dolores blanditiis modi unde nihil neque fugiat nostrum voluptates repellendus suscipit impedit debitis, quis accusamus esse, delectus enim!</p>
                         <a class="btn btn-primary" href="about.html">Learn More</a>
@@ -132,14 +132,17 @@
                         <button class="btn btn-primary" id="prevBtn">&lt;</button>
                         <p class="text-white text-center" id="reviewText"></p>
                         <button class="btn btn-primary" id="nextBtn">&gt;</button>
-                        
                     </div>
                     <div>
+                        <p class="text-warning text-center" id="reviewStars"></p>
                         <p class="text-white text-center" id="clientName"></p>
+                        <!-- Separate stars with a line break -->
+                        
                     </div>
                 </div>
             </div>
         </section>
+        
     </main>
 
         <!-- Footer -->
@@ -183,11 +186,17 @@
         function showReview(index) {
         const review = reviews[index];
         document.getElementById("clientName").innerText = review.client_name;
-        
+
         // Add double quotes around the review text and make it italic
         const formattedReviewText = `"${review.text}"`;
         document.getElementById("reviewText").innerHTML = `<em>${formattedReviewText}</em>`;
-        }
+
+        // Add Font Awesome stars
+        const stars = '<i class="fas fa-star"></i>'.repeat(5);
+        document.getElementById("reviewStars").innerHTML = stars;
+    }
+
+
 
         function cycleReviews() {
             currentReviewIndex = (currentReviewIndex + 1) % reviews.length;

@@ -164,6 +164,10 @@ p, a, button {
     z-index: 0;
 }
 
+.in-brief-list {
+    list-style: none;
+}
+
 .review-bg {
     height: 40vh;
     background: url('../images/avon-strings-1-small.jpg');

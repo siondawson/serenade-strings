@@ -16,17 +16,19 @@ function sendEmail(event) {
         .send(serviceID, templateID, params)
         .then(
             res => {
-                document.getElementById("name").value = "";
-                document.getElementById("contact-number").value = "";
-                document.getElementById("email").value = "";
-                document.getElementById("message").value = "";
-                document.querySelector('input[name="where-did-you-hear"]:checked').checked = false; // Clear radio button selection
+                document.getElementById("contact-form").innerHTML = `
+                    <h2>Thankyou! Message Sent</h2>
+                    <p>Your message sent successfully. If no reply within 24 hours, please check your spam!</p>
+                    <a href="index.html" class="btn btn-primary">Home Page</a>
+                `;
                 console.log(res);
-                alert("Your message sent successfully. If no reply within 24 hours please check your spam!");
             }
         )
         .catch((err) => {
             console.error(err);
-            alert("There was an error sending your message. Please try again later.");
+            document.getElementById("contact-form").innerHTML = `
+                <h2>Error</h2>
+                <p>There was an error sending your message. Please try again later.</p>
+            `;
         });
 }

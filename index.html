@@ -170,7 +170,6 @@
     <script>
         // removes background of jumbotron when nav menu is opened
         document.addEventListener("DOMContentLoaded", function () {
-            console.log("script is running")
             const navbarToggler = document.querySelector('.navbar-toggler');
             const jumbotron = document.querySelector('.jumbotron');
     
@@ -179,6 +178,8 @@
                 jumbotron.classList.toggle('remove-background');
             });
         });
+
+        // reviews script
 
         let reviews = [];
         let currentReviewIndex = 0;

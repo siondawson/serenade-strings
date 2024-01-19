@@ -1,15 +1,20 @@
 [
   {
-    "client_name": "Client 1",
-    "text": "This is the first test review. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "client_name": "Nadia - Eastington Park, 2023",
+    "text": "Thank you so much for the incredible job you all did at our wedding! The music was beautiful and you captured so many of our favourite songs flawlessly. We've had so many compliments on your playing and couldn't have been more grateful to have you performing "
   },
   {
-    "client_name": "Client 2",
-    "text": "This is the second test review. Quisque vel dui vitae nisl luctus aliquet in eu risus."
+    "client_name": "Sophie, Angel Hotel Abergavenny, 2023",
+    "text": "Just wanted to say a huge thank you for saturday. I wish I could have listened to you more and had you the whole day. It was absolutely magical, thank you."
+  },
+  
+  {
+    "client_name": "Nicola, Hensol Castle, 2023",
+    "text": "Thank you so much for your beautiful music on our day. Everyone loved it."
   },
   {
-    "client_name": "Client 3",
-    "text": "This is the third test review. Proin ac congue ex. Sed lacinia mauris ac dui sollicitudin, eu ullamcorper tellus malesuada."
+    "client_name": "Sarah, The Olde Barns, 2023",
+    "text": "A massive thankyou for playing at our wedding. The guests were full of compliments for you, utter perfection! A number of them commented how great it was to hear 'Concerning Hobbits' - complete hit! You we're all wonderful, thank you for playing a part in the best day of our lives"
   }
 ]
 

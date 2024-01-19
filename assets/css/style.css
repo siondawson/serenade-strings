@@ -518,4 +518,12 @@ p, a, button {
 .footer {
     background-color: #aeced0;
   }
+
+.footer-menu {
+    text-decoration: none;
+}
+
+.footer-icon-list {
+    list-style: none;
+}
   

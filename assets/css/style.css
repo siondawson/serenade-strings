@@ -350,6 +350,12 @@ p, a, button {
     border-bottom: 1px solid #ddd; /* Solid border color (light grey) */
 }
 
+/* faqs */
+
+.faq-hr {
+    margin-top: 0;
+}
+
 /* Gallery */
 
 #photos {

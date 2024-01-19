@@ -401,7 +401,7 @@ p, a, button {
     justify-content: center;
     position: relative;
     flex: 1 0 auto;
-    height: 105vh;
+    /* height: 105vh; */
 
 }
 

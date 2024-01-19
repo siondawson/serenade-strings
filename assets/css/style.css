@@ -219,6 +219,25 @@ p, a, button {
     
 }
 
+@media screen and (max-width: 576px) {
+    .review-bg {
+        height: 50vh;
+        background: url('../images/avon-strings-1-small.jpg');
+        background-position: center 20%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+}
+
 .overlay {
     float: left;
     width: 100%;

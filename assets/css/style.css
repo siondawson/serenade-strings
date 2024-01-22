@@ -1,32 +1,16 @@
+/* HTML AND BODY */
+
 html {
     overflow-x: hidden;
-    /* height: 100%;
-    width: 100%; */
 }
 
 body {
-    font-family: 'Roboto', sans-serif;;
-    /* height: 100%;
-    width: 100%; */
     margin: 0;
     padding: 0;
-    
   }
 
-.container-fluid {
-    /* padding-left: 0;
-    padding-right: 0; */
-}
 
-.nav-toggler {
-    padding-right: 20px !important;
-}
-
-.navbar-brand {
-    padding-left: 20px;
-}
-
-/* background colors */
+/* BACKGROUND COLORS */
 
 .background-blue {
     background-color: #aeced0;
@@ -36,7 +20,7 @@ body {
     background-color: #fafafa;
 }
 
-/* fonts */
+/* FONTS */
 
 .logo-font {
     font-family: 'Sacramento', cursive !important;
@@ -60,8 +44,6 @@ p, a, button {
 
 .big-icons {
     font-size: 400%;
-    /* display: block;
-    margin: 0 auto; */
     height: 100px;
 }
 
@@ -70,7 +52,7 @@ p, a, button {
     margin: 0 auto;
 } 
 
-/* buttons */
+/* BUTTONS */
 
 .btn-primary {
     background-color: #9190A7;
@@ -104,7 +86,15 @@ p, a, button {
 ;
 }
 
-/* navbar */
+/* NAVBAR */
+
+.nav-toggler {
+    padding-right: 20px !important;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+}
 
 .active {
     text-decoration: underline;
@@ -132,7 +122,7 @@ p, a, button {
 }
 
 
-.navbar-home { /* transparent nav bar applied to home page only. */
+.navbar-home { /* transparent nav bar originally applied to home page. Now site wide */
     background-color: #0000007d;
     transition: background-color 0.5s ease;
     position: absolute; 
@@ -147,6 +137,8 @@ p, a, button {
 .navbar-nav .nav-link {
     font-weight: 300; /* or use another value like 600, 700, etc. */
 }
+
+/* HOME PAGE */
 
 .alert-container .col-12 {
     padding-left: 0;
@@ -191,17 +183,6 @@ p, a, button {
     
     }
 }
-
-
-
-/* .opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3);
-} */
 
 .jumbotron {
     position: relative;
@@ -288,46 +269,9 @@ p, a, button {
 }
 
 
-/* Block Dividers */
-
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: red;
-}
-
-
-/* Jumbotron */
-
 .jumbotron-header {
     color: white;
-    /* font-weight: bold; */
-    /* margin-bottom: 30px; */
 }
-
-/* .jumbotron {
-    position: relative;
-    z-index: 1;
-} */
-
-/* about */
-
-.image-banner {
-    position: relative;
-    text-align: center; /* Center the image */
-    overflow: hidden; /* Hide overflow if the image exceeds container width */
-}
-
-.image-banner img {
-    width: 100%; /* Set image width to fill the container */
-    height: 550px; /* Maintain aspect ratio */
-    display: block; /* Remove default inline display */
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
-    object-fit: cover;
-}
-
-/* home page */
 
 .img-thumbnail {
     width: 100px; /* Adjust the width as needed */
@@ -382,7 +326,26 @@ p, a, button {
     border-bottom: 1px solid #ddd; /* Solid border color (light grey) */
 }
 
-/* faqs */
+
+
+/* ABOUT PAGE */
+
+.image-banner {
+    position: relative;
+    text-align: center; /* Center the image */
+    overflow: hidden; /* Hide overflow if the image exceeds container width */
+}
+
+.image-banner img {
+    width: 100%; /* Set image width to fill the container */
+    height: 550px; /* Maintain aspect ratio */
+    display: block; /* Remove default inline display */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    object-fit: cover;
+}
+
+
+/* FAQS PAGE */
 
 #faq-banner {
     background-image: url('/assets/images/violin.jpg'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
@@ -400,7 +363,7 @@ p, a, button {
     margin-top: 0;
 }
 
-/* Gallery */
+/* GALLERY PAGE */
 
 #gallery-banner {
     background-image: url('/assets/images/violin.jpg'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
@@ -450,7 +413,37 @@ p, a, button {
     }
 }
 
-/* Contact */
+/* REPERTOIRE PAGE */
+
+#repertoire-banner {
+    background-image: url('/assets/images/violin.jpg'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    height: 98px; /* Calculate the height to cover the remaining viewport height after subtracting the navigation bar height */
+    position: relative; /* Ensure proper positioning within the layout */
+    z-index: -1; /* Place the banner behind other elements (e.g., navigation bar) */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+
+#repertoire-banner h1 {
+    color: black; /* Text color */
+    text-align: center; /* Center the text */
+    padding-top: 20px; /* Add padding to the top of the content within the banner */
+    margin-bottom: 20px;
+}
+
+#rock-pop-list,
+#classical-list,
+#film-list,
+#jazz-list,
+#traditional-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+/* CONTACT PAGE */
 
 
 .form-section {
@@ -574,37 +567,7 @@ p, a, button {
     color: #000000;
 }
 
-/* Repertoire */
-
-#repertoire-banner {
-    background-image: url('/assets/images/violin.jpg'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
-    background-size: cover; /* Cover the entire container with the background image */
-    background-position: center; /* Center the background image */
-    height: 98px; /* Calculate the height to cover the remaining viewport height after subtracting the navigation bar height */
-    position: relative; /* Ensure proper positioning within the layout */
-    z-index: -1; /* Place the banner behind other elements (e.g., navigation bar) */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; 
-}
-
-#repertoire-banner h1 {
-    color: black; /* Text color */
-    text-align: center; /* Center the text */
-    padding-top: 20px; /* Add padding to the top of the content within the banner */
-    margin-bottom: 20px;
-}
-
-#rock-pop-list,
-#classical-list,
-#film-list,
-#jazz-list,
-#traditional-list {
-    list-style-type: none; /* Remove bullets */
-    padding: 0;
-}
-
-/* footer */
+/* FOOTER */
 
 .footer {
     background-color: rgb(205, 203, 203);

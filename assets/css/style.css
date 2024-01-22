@@ -106,6 +106,15 @@ p, a, button {
 
 /* navbar */
 
+.active {
+    text-decoration: underline;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(255 255 255);
+    border-color: rgb(255 255 255);
+}
+
 .navalert-container {
     position: relative;
     top: 0;
@@ -136,7 +145,7 @@ p, a, button {
 }
 
 .navbar-nav .nav-link {
-    font-weight: bold; /* or use another value like 600, 700, etc. */
+    font-weight: 300; /* or use another value like 600, 700, etc. */
 }
 
 .alert-container .col-12 {

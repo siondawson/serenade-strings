@@ -2,11 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const videoList = document.getElementById('videoList');
     const loadedVideoContainer = document.getElementById('loadedVideo');
 
-    // Add an h3 element with text "Select Video" above the videoList
-    const selectVideoHeader = document.createElement('h3');
-    selectVideoHeader.textContent = 'Select Video';
-    selectVideoHeader.classList.add('text-center', 'pb-sm-3', 'pb-md-3');
-    videoList.parentNode.insertBefore(selectVideoHeader, videoList);
 
     // Fetch video data from 'assets/json/videos.json'
     fetch('assets/json/videos.json')
@@ -76,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to load the video
     function loadVideo(videoId, videoTitle) {
         loadedVideoContainer.innerHTML = `
-        <div class="container">
+        <div class="container pt-5">
           <div class="video-wrapper embed-responsive embed-responsive-16by9 d-flex justify-content-center align-items-center">
             <iframe class="embed-responsive-item" 
                     src="https://www.youtube.com/embed/${videoId}" 

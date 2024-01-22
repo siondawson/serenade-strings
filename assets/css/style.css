@@ -43,6 +43,11 @@ body {
     font-size: 300%;
 }
 
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
 h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
@@ -71,14 +76,14 @@ p, a, button {
     background-color: #9190A7;
     border-radius: 0;
     border-color: #fafafa;
-    border-width: 3px;
+    border-width: 0;
 }
 
 .btn-primary:hover {
     background-color: #fafafa;
     border-radius: 0;
     border-color: #000000;
-    border-width: 3px;
+    border-width: 0;
     color: #000000;
 }
 
@@ -111,8 +116,10 @@ p, a, button {
 }
 
 .navbar {
+    position: absolute;
     width: 100%;
-    background-color: #aeced0;
+    background-color: #0000007d;
+    transition: background-color 0.5s ease;
 }
 
 
@@ -126,6 +133,10 @@ p, a, button {
 
 .nav-link {
     padding-left: 5px !important;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold; /* or use another value like 600, 700, etc. */
 }
 
 .alert-container .col-12 {
@@ -345,7 +356,6 @@ p, a, button {
 .custom-list-item {
     background-color: #f0f0f0; /* Light grey background color */
     cursor: pointer; /* Add cursor pointer to indicate clickable */
-    /* padding: 10px; Add padding for better spacing */
     transition: background-color 0.3s; /* Add transition for smooth color change */
 }
 
@@ -365,11 +375,42 @@ p, a, button {
 
 /* faqs */
 
+#faq-banner {
+    background-image: url('/assets/images/violin.jpg'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    height: 98px; /* Calculate the height to cover the remaining viewport height after subtracting the navigation bar height */
+    position: relative; /* Ensure proper positioning within the layout */
+    z-index: -1; /* Place the banner behind other elements (e.g., navigation bar) */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+
 .faq-hr {
     margin-top: 0;
 }
 
 /* Gallery */
+
+#gallery-banner {
+    background-image: url('/assets/images/violin.jpg'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    height: 98px; /* Calculate the height to cover the remaining viewport height after subtracting the navigation bar height */
+    position: relative; /* Ensure proper positioning within the layout */
+    z-index: -1; /* Place the banner behind other elements (e.g., navigation bar) */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+
+#gallery-banner h1 {
+    color: black; /* Text color */
+    text-align: center; /* Center the text */
+    padding-top: 20px; /* Add padding to the top of the content within the banner */
+    margin-bottom: 20px;
+}
 
 #photos {
     clear: both;
@@ -402,6 +443,7 @@ p, a, button {
 
 /* Contact */
 
+
 .form-section {
     background: url("../images/avon-strings-33.jpg") no-repeat center fixed; 
         -webkit-background-size: cover;
@@ -414,6 +456,8 @@ p, a, button {
     justify-content: center;
     position: relative;
     flex: 1 0 auto;
+    max-height: 100vh; /* Adjust the value as needed */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
     /* height: 105vh; */
 
 }
@@ -441,8 +485,13 @@ p, a, button {
     background-color: rgba(60,60,60,0.6);
     max-width: 440px;
     position: relative;
-    padding: 30px;
-    left: 10%
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    left: 10%;
+    top: 90px;
+    bottom: 90px;
     
 }
 
@@ -518,6 +567,25 @@ p, a, button {
 
 /* Repertoire */
 
+#repertoire-banner {
+    background-image: url('/assets/images/violin.jpg'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    height: 98px; /* Calculate the height to cover the remaining viewport height after subtracting the navigation bar height */
+    position: relative; /* Ensure proper positioning within the layout */
+    z-index: -1; /* Place the banner behind other elements (e.g., navigation bar) */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+
+#repertoire-banner h1 {
+    color: black; /* Text color */
+    text-align: center; /* Center the text */
+    padding-top: 20px; /* Add padding to the top of the content within the banner */
+    margin-bottom: 20px;
+}
+
 #rock-pop-list,
 #classical-list,
 #film-list,
@@ -530,7 +598,7 @@ p, a, button {
 /* footer */
 
 .footer {
-    background-color: #aeced0;
+    background-color: rgb(205, 203, 203);
   }
 
 .footer-menu {

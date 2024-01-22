@@ -22,47 +22,56 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error('Error fetching videos:', error));
 
-        function displayVideoGallery(videos) {
-            // Display video thumbnails in the list
-            videos.forEach(video => {
-                const listItem = document.createElement('li');
-                listItem.classList.add('custom-list-item', 'd-flex', 'justify-content-between', 'align-items-center', 'border-bottom');
-        
-                const thumbnailContainer = document.createElement('div');
-                thumbnailContainer.classList.add('d-flex', 'align-items-center', 'position-relative'); // Added position-relative class
-        
-                const thumbnail = document.createElement('img');
-                thumbnail.src = video.thumbnail;
-                thumbnail.alt = video.title;
-                thumbnail.classList.add('img-thumbnail', 'video-thumbnail');
-        
-                const playIcon = document.createElement('i');
-                playIcon.classList.add('fas', 'fa-play-circle', 'play-icon');
-        
-                const contentContainer = document.createElement('div');
-                contentContainer.classList.add('d-flex', 'flex-column', 'ms-3', 'flex-grow-1'); // Added Bootstrap classes
-        
-                const title = document.createElement('span');
-                title.textContent = video.title;
-                title.classList.add('text-start'); // Bootstrap class for left alignment
-        
-                // Attach click event to load the video
-                listItem.addEventListener('click', function () {
-                    loadVideo(video.videoId, video.title);
-                });
-        
-                thumbnailContainer.appendChild(thumbnail);
-                thumbnailContainer.appendChild(playIcon);
-        
-                contentContainer.appendChild(title);
-        
-                listItem.appendChild(thumbnailContainer);
-                listItem.appendChild(contentContainer);
-        
-                videoList.appendChild(listItem);
+    function displayVideoGallery(videos) {
+        // Display video thumbnails in the list
+        videos.forEach(video => {
+            const listItem = document.createElement('li');
+            listItem.classList.add('custom-list-item', 'd-flex', 'justify-content-between', 'align-items-center', 'border-bottom');
+
+            const thumbnailContainer = document.createElement('div');
+            thumbnailContainer.classList.add('d-flex', 'align-items-center', 'position-relative'); // Added position-relative class
+
+            const thumbnail = document.createElement('img');
+            thumbnail.src = video.thumbnail;
+            thumbnail.alt = video.title;
+            thumbnail.classList.add('img-thumbnail', 'video-thumbnail');
+
+            const playIcon = document.createElement('i');
+            playIcon.classList.add('fas', 'fa-play-circle', 'play-icon');
+
+            const contentContainer = document.createElement('div');
+            contentContainer.classList.add('d-flex', 'flex-column', 'ms-3', 'flex-grow-1'); // Added Bootstrap classes
+
+            const title = document.createElement('span');
+            title.textContent = video.title;
+            title.classList.add('text-start'); // Bootstrap class for left alignment
+
+            // Attach click event to load the video
+            listItem.addEventListener('click', function () {
+                // Remove 'selected-video' class from the previously selected item
+                const previouslySelectedItem = videoList.querySelector('.custom-list-item.selected-video');
+                if (previouslySelectedItem) {
+                    previouslySelectedItem.classList.remove('selected-video');
+                }
+
+                // Add 'selected-video' class to the clicked item
+                listItem.classList.add('selected-video');
+
+                // Load the video
+                loadVideo(video.videoId, video.title);
             });
-        }
-        
+
+            thumbnailContainer.appendChild(thumbnail);
+            thumbnailContainer.appendChild(playIcon);
+
+            contentContainer.appendChild(title);
+
+            listItem.appendChild(thumbnailContainer);
+            listItem.appendChild(contentContainer);
+
+            videoList.appendChild(listItem);
+        });
+    }
 
     // Function to load the video
     function loadVideo(videoId, videoTitle) {
@@ -75,7 +84,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" 
                     allowfullscreen>
             </iframe>
-            
           </div>
           <div>
             <p class="text-center">Now Playing: ${videoTitle}</p>

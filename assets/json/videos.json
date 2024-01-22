@@ -6,7 +6,7 @@
     },
     {
         "title": "Colors of the Wind",
-        "thumbnail": "assets/images/thumbnails/avon-thumbnail-2.jpeg",
+        "thumbnail": "assets/images/thumbnails/avon-thumbnail-1.jpeg",
         "videoId": "8haRGBA8c1o?"
     },
     {
@@ -23,5 +23,17 @@
         "title": "Wildest Dreams",
         "thumbnail": "assets/images/thumbnails/avon-thumbnail-1.jpeg",
         "videoId": "nDAvKHFWtBw"
+    },
+    {
+        "title": "Concerning Hobbits",
+        "thumbnail": "assets/images/thumbnails/avon-thumbnail-2.jpeg",
+        "videoId": "ocS5tF6FL74"
+    },
+    {
+        "title": "Brandenburg Concerto #2",
+        "thumbnail": "assets/images/thumbnails/avon-thumbnail-2.jpeg",
+        "videoId": "M4R7EoLKZ3I"
     }
+    
+
 ]

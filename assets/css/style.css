@@ -311,7 +311,7 @@ p, a, button {
 
 .img-thumbnail {
     width: 100px; /* Adjust the width as needed */
-    height: 75px; /* Adjust the height as needed */
+    height: 55px; /* Adjust the height as needed */
     object-fit: cover; /* Apply crop to the top and bottom */
     border: 0;
     padding: 0;
@@ -344,7 +344,20 @@ p, a, button {
 
 .custom-list-item {
     background-color: #f0f0f0; /* Light grey background color */
+    cursor: pointer; /* Add cursor pointer to indicate clickable */
+    /* padding: 10px; Add padding for better spacing */
+    transition: background-color 0.3s; /* Add transition for smooth color change */
 }
+
+.custom-list-item:hover {
+    background-color: #e0e0e0; /* Lighter grey background color on hover */
+}
+
+.custom-list-item.selected-video {
+    background-color: #333; /* Darker background color for the selected video */
+    color: #fff; /* Text color on the darker background */
+}
+
 
 .border-bottom {
     border-bottom: 1px solid #ddd; /* Solid border color (light grey) */

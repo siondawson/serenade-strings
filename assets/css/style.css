@@ -55,22 +55,23 @@ p, a, button {
 /* BUTTONS */
 
 .btn-primary {
-    background-color: #9190A7;
+    background-color: #fafafa;
     border-radius: 0;
-    border-color: #fafafa;
-    border-width: 0;
+    border-color: #000;
+    border-width: 2px;
+    color: #000;
 }
 
 .btn-primary:hover {
-    background-color: #fafafa;
+    background-color: #183537;
     border-radius: 0;
     border-color: #000000;
     border-width: 0;
-    color: #000000;
+    color: #fafafa;
 }
 
 .btn-success {
-    background-color: #aeced0;
+    background-color: #fafafa;
     border-radius: 0;
     border-color: #fafafa;
     border-width: 3px;
@@ -570,7 +571,7 @@ p, a, button {
 /* FOOTER */
 
 .footer {
-    background-color: rgb(205, 203, 203);
+    background-color: #fafafa;
   }
 
 .footer-menu {

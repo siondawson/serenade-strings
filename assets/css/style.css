@@ -131,6 +131,10 @@ p, a, button {
     z-index: 10;
 }
 
+.navbar-home.opaque-background {
+    background-color: #333333; /* Change to your desired color */
+}
+
 .nav-link {
     padding-left: 5px !important;
 }

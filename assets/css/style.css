@@ -174,7 +174,7 @@ p, a, button {
 
 @media (max-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. Solution suggested by tutor Ed.*/
     .callout-container {
-        background: url("../images/avon-strings-2.jpg") no-repeat center fixed; 
+        background: url("../images/avon-strings-2.webp") no-repeat center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -211,7 +211,7 @@ p, a, button {
 
 .review-bg {
     height: 40vh;
-    background: url('../images/avon-strings-1-small.jpg');
+    background: url('../images/avon-strings-1-small.webp');
     background-position: center 20%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -229,7 +229,7 @@ p, a, button {
 @media screen and (max-width: 576px) {
     .review-bg {
         height: 50vh;
-        background: url('../images/avon-strings-1-small.jpg');
+        background: url('../images/avon-strings-1-small.webp');
         background-position: center 20%;
         -webkit-background-size: cover;
         -moz-background-size: cover;

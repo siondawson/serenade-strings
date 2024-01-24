@@ -353,7 +353,7 @@ p, a, button {
 /* FAQS PAGE */
 
 #faq-banner {
-    background-image: url('/assets/images/violin.jpg'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
+    background-image: url('/assets/images/violin.webp'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
     background-size: cover; /* Cover the entire container with the background image */
     background-position: center; /* Center the background image */
     height: 98px; /* Calculate the height to cover the remaining viewport height after subtracting the navigation bar height */
@@ -371,7 +371,7 @@ p, a, button {
 /* GALLERY PAGE */
 
 #gallery-banner {
-    background-image: url('/assets/images/violin.jpg'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
+    background-image: url('/assets/images/violin.webp'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
     background-size: cover; /* Cover the entire container with the background image */
     background-position: center; /* Center the background image */
     height: 98px; /* Calculate the height to cover the remaining viewport height after subtracting the navigation bar height */
@@ -421,7 +421,7 @@ p, a, button {
 /* REPERTOIRE PAGE */
 
 #repertoire-banner {
-    background-image: url('/assets/images/violin.jpg'); /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
+    background-image: url('/assets/images/violin.webp');
     background-size: cover; /* Cover the entire container with the background image */
     background-position: center; /* Center the background image */
     height: 98px; /* Calculate the height to cover the remaining viewport height after subtracting the navigation bar height */
@@ -452,7 +452,7 @@ p, a, button {
 
 
 .form-section {
-    background: url("../images/avon-strings-33.jpg") no-repeat center fixed; 
+    background: url("../images/avon-strings-34.webp") no-repeat center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -471,7 +471,7 @@ p, a, button {
 
 @media (min-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. Solution suggested by tutor Ed.*/
     .form-section {
-        background: url("../images/avon-strings-33.jpg") no-repeat center fixed; 
+        background: url("../images/avon-strings-34.webp") no-repeat center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;

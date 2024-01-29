@@ -93,10 +93,6 @@ p, a, button {
     padding-right: 20px !important;
 }
 
-.navbar-brand {
-    padding-left: 20px;
-}
-
 .active {
     text-decoration: underline;
 }
@@ -273,6 +269,10 @@ p, a, button {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+.review-title {
+    font-weight: 400;
+}
+
 
 .jumbotron-header {
     color: white;
@@ -293,7 +293,7 @@ p, a, button {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2em;
-    color: #b1cdea; /* Set the color to your preference */
+    color: #2e2e2e;
     z-index: 2;
 }
 

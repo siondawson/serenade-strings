@@ -156,7 +156,7 @@ p, a, button {
 
 .callout-container {
     height: 100vh;
-    background: url('../images/avon-strings-31.webp') no-repeat bottom center fixed;
+    background: url('../images/serenade-strings-31.webp') no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -170,7 +170,7 @@ p, a, button {
 
 @media (max-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. Solution suggested by tutor Ed.*/
     .callout-container {
-        background: url("../images/avon-strings-2.webp") no-repeat center fixed; 
+        background: url("../images/serenade-strings-2.webp") no-repeat center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -207,7 +207,7 @@ p, a, button {
 
 .review-bg {
     height: 40vh;
-    background: url('../images/avon-strings-1-small.webp');
+    background: url('../images/serenade-strings-1-small.webp');
     background-position: center 20%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -225,7 +225,7 @@ p, a, button {
 @media screen and (max-width: 576px) {
     .review-bg {
         height: 50vh;
-        background: url('../images/avon-strings-1-small.webp');
+        background: url('../images/serenade-strings-1-small.webp');
         background-position: center 20%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -452,7 +452,7 @@ p, a, button {
 
 
 .form-section {
-    background: url("../images/avon-strings-34.webp") no-repeat center fixed; 
+    background: url("../images/serenade-strings-34.webp") no-repeat center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -465,13 +465,12 @@ p, a, button {
     flex: 1 0 auto;
     max-height: 100vh; /* Adjust the value as needed */
     overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
-    /* height: 105vh; */
 
 }
 
 @media (min-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. Solution suggested by tutor Ed.*/
     .form-section {
-        background: url("../images/avon-strings-34.webp") no-repeat center fixed; 
+        background: url("../images/serenade-strings-34.webp") no-repeat center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -511,6 +510,11 @@ p, a, button {
         position: relative;
         padding: 30px;
         left: 0%;
+    }
+
+    .form-section {
+        width: 100%;
+        padding: 0;
     }
 }
 

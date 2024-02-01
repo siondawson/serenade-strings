@@ -1,7 +1,17 @@
 {
-    "Ionel Fernic": ["I Love The Woman"],
-    "Carlos Gardel": ["Por Una Cabeza"],
-    "Sebastian Iradier": ["La Palorma Tango"],
-    "Mädis Javri": ["Eine Klaine Nacht Tango"],
-    "A.G Villoldo": ["El Choclo"]
+    "Ionel Fernic": {
+        "songs": [{"title": "I Love The Woman", "mp3_file": null}]
+    },
+    "Carlos Gardel": {
+        "songs": [{"title": "Por Una Cabeza", "mp3_file": null}]
+    },
+    "Sebastian Iradier": {
+        "songs": [{"title": "La Palorma Tango", "mp3_file": null}]
+    },
+    "Mädis Javri": {
+        "songs": [{"title": "Eine Klaine Nacht Tango", "mp3_file": null}]
+    },
+    "A.G Villoldo": {
+        "songs": [{"title": "El Choclo", "mp3_file": null}]
+    }
 }

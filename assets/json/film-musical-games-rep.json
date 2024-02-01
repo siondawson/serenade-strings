@@ -1,62 +1,173 @@
 {
-    "Aladdin": ["Whole New World"],
-    "Band of Brothers": ["Theme"],
-    "Beauty and The Beast": ["Tale as Old as Time"],
-    "James Bond 007": [
-        "Theme",
-        "Diamonds are Forever",
-        "Nobody Does it Better",
-        "Goldfinger",
-        "Skyfall"
-    ],
-    "Braveheart": ["For The Love of a Princess"],
-    "Breakfast at Tiffany’s": ["Moon River"],
-    "Dads Army": ["Theme"],
-    "Disney Medley": [],
-    "Donkey Kong": ["Jungle Japes"],
-    "Fiddler on the Roof": ["Sunrise, Sunset"],
-    "Frozen": ["Let it Go"],
-    "Forest Gump": ["Feather Theme"],
-    "Games of Thrones": ["Theme"],
-    "The Godfather": ["Love Theme"],
-    "The Greatest Showman": ["Rewrite the Stars"],
-    "Hamilton": ["Helpless"],
-    "Harry Potter": ["Hedwigs Theme", "Medley"],
-    "Inception": ["Time"],
-    "Indiana Jones": ["Raiders March"],
-    "Inglorious Basterds": ["Tarantella e Rabbia"],
-    "Joe Hisaishi": [
-        "Always With Me",
-        "My Neighbour Totoro",
-        "One Summers Day",
-        "Princess Mononoke"
-    ],
-    "Jungle Book": ["The Bare Necessities"],
-    "La La Land": ["Another Day of Sun", "City of Stars"],
-    "The Little Mermaid": ["Part of Your World"],
-    "Lion King": ["Can You Feel the Love Tonight"],
-    "Lord of the Rings": ["Concerning Hobbits"],
-    "Love Actually": ["Portuguese Love Theme"],
-    "Miss Marple": ["Theme"],
-    "Moana": ["How Far I’ll Go"],
-    "Notting Hill": ["She"],
-    "Phantom of the Opera": ["All I Ask of You"],
-    "Peaky Blinders Theme": ["Red Right Hand"],
-    "The Pink Panther": ["Theme"],
-    "Pirates of The Caribbean": ["The Curse of the Black Pearl Medley"],
-    "Pinocchio": ["When You Wish Upon a Star"],
-    "Pocahontas": ["Colours of the Wind"],
-    "The Princess Bride": ["Storybook Love"],
-    "Rogers & Hammerstein": ["You’ll Never Walk Alone"],
-    "Tangled": ["I See The Light"],
-    "Tarzan": ["You’ll Be in My Heart (Phil Collins)"],
-    "Toy Story": ["You’ve Got a Friend in Me"],
-    "Twilight": ["Flightless Bird, American Mouth (Iron & Wine)", "A Thousand Years"],
-    "The Sound of Music": ["Maria"],
-    "Up": ["Married Life"],
-    "Slumdog Millionaire": ["Latika’s Theme"],
-    "Star Wars": ["The Imperial March", "The Throne Room", "Opening Theme"],
-    "Super Mario Bros (1985)": ["Medley"],
-    "Super Mario 64": ["Inside the Castle Walls"],
-    "The Legend of Zelda": ["Ocarina of Time"]
+    "Aladdin": {
+        "songs": [{"title": "Whole New World", "mp3_file": null}]
+    },
+    "Band of Brothers": {
+        "songs": [{"title": "Theme", "mp3_file": null}]
+    },
+    "Beauty and The Beast": {
+        "songs": [{"title": "Tale as Old as Time", "mp3_file": null}]
+    },
+    "James Bond 007": {
+        "songs": [
+            {"title": "Theme", "mp3_file": null},
+            {"title": "Diamonds are Forever", "mp3_file": null},
+            {"title": "Nobody Does it Better", "mp3_file": null},
+            {"title": "Goldfinger", "mp3_file": null},
+            {"title": "Skyfall", "mp3_file": null}
+        ]
+    },
+    "Braveheart": {
+        "songs": [{"title": "For The Love of a Princess", "mp3_file": null}]
+    },
+    "Breakfast at Tiffany’s": {
+        "songs": [{"title": "Moon River", "mp3_file": null}]
+    },
+    "Dads Army": {
+        "songs": [{"title": "Theme", "mp3_file": null}]
+    },
+    "Disney Medley": {
+        "songs": []
+    },
+    "Donkey Kong": {
+        "songs": [{"title": "Jungle Japes", "mp3_file": null}]
+    },
+    "Fiddler on the Roof": {
+        "songs": [{"title": "Sunrise, Sunset", "mp3_file": null}]
+    },
+    "Frozen": {
+        "songs": [{"title": "Let it Go", "mp3_file": null}]
+    },
+    "Forest Gump": {
+        "songs": [{"title": "Feather Theme", "mp3_file": null}]
+    },
+    "Games of Thrones": {
+        "songs": [{"title": "Theme", "mp3_file": null}]
+    },
+    "The Godfather": {
+        "songs": [{"title": "Love Theme", "mp3_file": null}]
+    },
+    "The Greatest Showman": {
+        "songs": [{"title": "Rewrite the Stars", "mp3_file": null}]
+    },
+    "Hamilton": {
+        "songs": [{"title": "Helpless", "mp3_file": null}]
+    },
+    "Harry Potter": {
+        "songs": [
+            {"title": "Hedwigs Theme", "mp3_file": null},
+            {"title": "Medley", "mp3_file": null}
+        ]
+    },
+    "Inception": {
+        "songs": [{"title": "Time", "mp3_file": null}]
+    },
+    "Indiana Jones": {
+        "songs": [{"title": "Raiders March", "mp3_file": null}]
+    },
+    "Inglorious Basterds": {
+        "songs": [{"title": "Tarantella e Rabbia", "mp3_file": null}]
+    },
+    "Joe Hisaishi": {
+        "songs": [
+            {"title": "Always With Me", "mp3_file": null},
+            {"title": "My Neighbour Totoro", "mp3_file": null},
+            {"title": "One Summers Day", "mp3_file": null},
+            {"title": "Princess Mononoke", "mp3_file": null}
+        ]
+    },
+    "Jungle Book": {
+        "songs": [{"title": "The Bare Necessities", "mp3_file": null}]
+    },
+    "La La Land": {
+        "songs": [
+            {"title": "Another Day of Sun", "mp3_file": null},
+            {"title": "City of Stars", "mp3_file": null}
+        ]
+    },
+    "The Little Mermaid": {
+        "songs": [{"title": "Part of Your World", "mp3_file": null}]
+    },
+    "Lion King": {
+        "songs": [{"title": "Can You Feel the Love Tonight", "mp3_file": null}]
+    },
+    "Lord of the Rings": {
+        "songs": [{"title": "Concerning Hobbits", "mp3_file": null}]
+    },
+    "Love Actually": {
+        "songs": [{"title": "Portuguese Love Theme", "mp3_file": null}]
+    },
+    "Miss Marple": {
+        "songs": [{"title": "Theme", "mp3_file": null}]
+    },
+    "Moana": {
+        "songs": [{"title": "How Far I’ll Go", "mp3_file": null}]
+    },
+    "Notting Hill": {
+        "songs": [{"title": "She", "mp3_file": null}]
+    },
+    "Phantom of the Opera": {
+        "songs": [{"title": "All I Ask of You", "mp3_file": null}]
+    },
+    "Peaky Blinders Theme": {
+        "songs": [{"title": "Red Right Hand", "mp3_file": null}]
+    },
+    "The Pink Panther": {
+        "songs": [{"title": "Theme", "mp3_file": null}]
+    },
+    "Pirates of The Caribbean": {
+        "songs": [{"title": "The Curse of the Black Pearl Medley", "mp3_file": null}]
+    },
+    "Pinocchio": {
+        "songs": [{"title": "When You Wish Upon a Star", "mp3_file": null}]
+    },
+    "Pocahontas": {
+        "songs": [{"title": "Colours of the Wind", "mp3_file": null}]
+    },
+    "The Princess Bride": {
+        "songs": [{"title": "Storybook Love", "mp3_file": null}]
+    },
+    "Rogers & Hammerstein": {
+        "songs": [{"title": "You’ll Never Walk Alone", "mp3_file": null}]
+    },
+    "Tangled": {
+        "songs": [{"title": "I See The Light", "mp3_file": null}]
+    },
+    "Tarzan": {
+        "songs": [{"title": "You’ll Be in My Heart (Phil Collins)", "mp3_file": null}]
+    },
+    "Toy Story": {
+        "songs": [{"title": "You’ve Got a Friend in Me", "mp3_file": null}]
+    },
+    "Twilight": {
+        "songs": [
+            {"title": "Flightless Bird, American Mouth (Iron & Wine)", "mp3_file": null},
+            {"title": "A Thousand Years", "mp3_file": null}
+        ]
+    },
+    "The Sound of Music": {
+        "songs": [{"title": "Maria", "mp3_file": null}]
+    },
+    "Up": {
+        "songs": [{"title": "Married Life", "mp3_file": null}]
+    },
+    "Slumdog Millionaire": {
+        "songs": [{"title": "Latika’s Theme", "mp3_file": null}]
+    },
+    "Star Wars": {
+        "songs": [
+            {"title": "The Imperial March", "mp3_file": null},
+            {"title": "The Throne Room", "mp3_file": null},
+            {"title": "Opening Theme", "mp3_file": null}
+        ]
+    },
+    "Super Mario Bros (1985)": {
+        "songs": [{"title": "Medley", "mp3_file": null}]
+    },
+    "Super Mario 64": {
+        "songs": [{"title": "Inside the Castle Walls", "mp3_file": null}]
+    },
+    "The Legend of Zelda": {
+        "songs": [{"title": "Ocarina of Time", "mp3_file": null}]
+    }
 }

@@ -443,7 +443,8 @@ p, a, button {
 #classical-list,
 #film-list,
 #jazz-list,
-#traditional-list {
+#traditional-list,
+#tango-list {
     list-style-type: none; /* Remove bullets */
     padding: 0;
 }

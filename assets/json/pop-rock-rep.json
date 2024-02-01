@@ -27,7 +27,7 @@
   },
   "Ariana Grande": {
     "songs": [
-      {"title": "Thank u, next", "mp3_file": null}
+      {"title": "Thank u, next", "mp3_file": "thank-u-next-clip-2021.mp3"}
     ]
   },
   "Adele": {
@@ -37,7 +37,7 @@
       {"title": "Skyfall", "mp3_file": null}
     ]
   },
-  "Apex Twin": {
+  "Aphex Twin": {
     "songs": [
       {"title": "Avril 14th", "mp3_file": null}
     ]
@@ -60,7 +60,7 @@
   },
   "The Beach Boys": {
     "songs": [
-      {"title": "God Only Knows", "mp3_file": null},
+      {"title": "God Only Knows", "mp3_file": "god-only-knows-clip.mp3"},
       {"title": "Wouldn’t It Be Nice", "mp3_file": null}
     ]
   },
@@ -72,7 +72,7 @@
       {"title": "I Saw Her Standing There", "mp3_file": null},
       {"title": "I Want To Hold Your Hand", "mp3_file": null},
       {"title": "When I’m Sixty Four", "mp3_file": null},
-      {"title": "All You Need is Love", "mp3_file": null},
+      {"title": "All You Need is Love", "mp3_file": "all-you-need-is-love-clip-2021.mp3"},
       {"title": "Eleanor Rigby", "mp3_file": null},
       {"title": "Yesterday", "mp3_file": null},
       {"title": "With a Little Help From My Friends", "mp3_file": null}
@@ -139,7 +139,7 @@
   "Bob Marley": {
     "songs": [
       {"title": "Is This Love", "mp3_file": null},
-      {"title": "Three Little Birds", "mp3_file": null}
+      {"title": "Three Little Birds", "mp3_file": "three-little-birds-clip-clip"}
     ]
   },
   "Bon Iver": {
@@ -307,7 +307,7 @@
   },
   "ELO": {
     "songs": [
-      {"title": "Mr. Blue Sky", "mp3_file": null},
+      {"title": "Mr. Blue Sky", "mp3_file": "mr-blue-sky-clip-2021.mp3"},
       {"title": "Rock ’N’ Roll is King", "mp3_file": null},
       {"title": "Shine a Little Love", "mp3_file": null},
       {"title": "Standin’ in the Rain", "mp3_file": null},
@@ -770,7 +770,7 @@
   },
   "Shawn Mendes": {
     "songs": [
-      {"title": "In My Blood", "mp3_file": null}
+      {"title": "In My Blood", "mp3_file": "in-my-blood-clip-2021.mp3"}
     ]
   },
   "Swedish House Mafia": {
@@ -827,7 +827,7 @@
       {"title": "Invisible String", "mp3_file": null},
       {"title": "Lover", "mp3_file": null},
       {"title": "Love Story", "mp3_file": null},
-      {"title": "Wildest Dreams", "mp3_file": null}
+      {"title": "Wildest Dreams", "mp3_file": "wildest-dreams-clip.mp3"}
     ]
   },
   "Tears for Fears": {
@@ -857,7 +857,7 @@
   },
   "Toto": {
     "songs": [
-      {"title": "Africa", "mp3_file": null}
+      {"title": "Africa", "mp3_file": "africa-sq-clip.mp3"}
     ]
   },
   "Train": {

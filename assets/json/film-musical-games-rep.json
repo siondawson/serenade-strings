@@ -92,7 +92,7 @@
         "songs": [{"title": "Can You Feel the Love Tonight", "mp3_file": null}]
     },
     "Lord of the Rings": {
-        "songs": [{"title": "Concerning Hobbits", "mp3_file": null}]
+        "songs": [{"title": "Concerning Hobbits", "mp3_file": "concerning-hobbits-clip-2021.mp3"}]
     },
     "Love Actually": {
         "songs": [{"title": "Portuguese Love Theme", "mp3_file": null}]
@@ -122,7 +122,7 @@
         "songs": [{"title": "When You Wish Upon a Star", "mp3_file": null}]
     },
     "Pocahontas": {
-        "songs": [{"title": "Colours of the Wind", "mp3_file": null}]
+        "songs": [{"title": "Colours of the Wind", "mp3_file": "pocahontas-clip-2021.mp3"}]
     },
     "The Princess Bride": {
         "songs": [{"title": "Storybook Love", "mp3_file": null}]

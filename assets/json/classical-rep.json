@@ -56,6 +56,13 @@
             {"title": "The Flower Song", "mp3_file": null}
         ]
     },
+    "Einaudi": {
+        "songs": [
+            {"title": "I Giorni", "mp3_file": "i-giorni-sq-clip.mp3"},
+            {"title": "Le Onde", "mp3_file": null},
+            {"title": "Nuvole Bianche", "mp3_file": null}
+        ]
+    },
     "Edward Elgar": {
         "songs": [
             {"title": "Chanson De Matin", "mp3_file": null},

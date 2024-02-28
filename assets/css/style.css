@@ -461,22 +461,6 @@ p, a, button {
     
 }
 
-#get-in-touch {
-    
-    position: absolute; /* Position absolute for easy vertical centering */
-    top: 50%; /* Move the top of the div to the middle */
-    left: 50%; /* Move the left of the div to the middle */
-    transform: translate(-50%, -50%); /* Center the div both horizontally and vertically */
-}
-
-#get-in-touch h1 {
-    /* Add any additional styling for the h1 if needed */
-    color: #fff;
-    background-color: #00000083;
-    padding: 30px;
-    font-size: 400%;
-    font-family: 'Sacramento', cursive !important;
-}
 
 .contact-form {
     

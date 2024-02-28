@@ -547,4 +547,8 @@ p, a, button {
     text-decoration: none !important;
     color: #000000;
 }
+
+.agent-badge {
+    height: 50px;
+}
   

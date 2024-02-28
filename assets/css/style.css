@@ -452,30 +452,38 @@ p, a, button {
 /* CONTACT PAGE */
 
 
-.contact-img {
-    /* background: url('/assets/images/serenade-strings-34.webp') no-repeat bottom center fixed; */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 #contact {
     height: 100%;
     background: url('../images/serenade-strings-34.webp') no-repeat bottom center fixed;
     
     background-size: cover;
+    background-attachment: fixed;
     
 }
 
+#get-in-touch {
+    
+    position: absolute; /* Position absolute for easy vertical centering */
+    top: 50%; /* Move the top of the div to the middle */
+    left: 50%; /* Move the left of the div to the middle */
+    transform: translate(-50%, -50%); /* Center the div both horizontally and vertically */
+}
+
+#get-in-touch h1 {
+    /* Add any additional styling for the h1 if needed */
+    color: #fff;
+    background-color: #00000083;
+    padding: 30px;
+    font-size: 400%;
+    font-family: 'Sacramento', cursive !important;
+}
 
 .contact-form {
     
     
-    background-color: #00000067;
+    background-color: #0000009c;
     margin-top: 140px;
-    padding-bottom: 20px;
+    padding: 20px;
     
 }
 

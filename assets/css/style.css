@@ -531,6 +531,8 @@ p, a, button {
 
 .footer {
     background-color: #fafafa;
+    width: 100%;
+    overflow-x: hidden;
   }
 
 .footer-menu {
@@ -548,7 +550,26 @@ p, a, button {
     color: #000000;
 }
 
-.agent-badge {
-    height: 50px;
+.agent-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
 }
-  
+
+.agent-badge {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto; /* Center the badge horizontally within its container */
+    display: block;
+}
+
+/* Optional: If you want to center the badges vertically within the container */
+.agent-badge-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agent-badge-link {
+    text-align: center; /* Center the content within each link */
+}

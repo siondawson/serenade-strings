@@ -289,11 +289,13 @@ p, a, button {
 
 .play-icon {
     position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2em;
-    color: #2e2e2e;
+    color: #d20000;
     z-index: 2;
 }
 
@@ -322,7 +324,7 @@ p, a, button {
 }
 
 .custom-list-item.selected-video {
-    background-color: #333; /* Darker background color for the selected video */
+    background-color: #d20000; /* Darker background color for the selected video */
     color: #fff; /* Text color on the darker background */
 }
 

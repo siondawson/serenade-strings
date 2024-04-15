@@ -156,7 +156,10 @@ p, a, button {
 
 .callout-container {
     height: 100vh;
-    background: url('../images/serenade-strings-31.webp') no-repeat bottom center fixed;
+    background-image: url('../images/serenade-strings-31.webp');
+    background-repeat: no-repeat;
+    background-position: center 0%; /* Adjusted to select the lowest part of the image */
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -166,6 +169,8 @@ p, a, button {
     align-items: center;
     justify-content: center;
 }
+
+
 
 
 @media (max-width: 1000px) { /* This a workaround to get the background image to look nice on iOS. Background scroll is not compatible. Scroll functionality sacrificed for a background img that will cover the entire background. Solution suggested by tutor Ed.*/

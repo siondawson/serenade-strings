@@ -352,7 +352,7 @@ p, a, button {
     transform: translate(-50%, -50%); /* Center the content */
     text-align: center; /* Center-align the text */
     color: white; /* Set text color to white */
-    z-index: 1; /* Ensure the overlay content is above the image */
+    z-index: 0; /* Ensure the overlay content is above the image */
 }
 
 .image-banner {

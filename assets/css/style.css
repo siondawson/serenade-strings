@@ -342,6 +342,19 @@ p, a, button {
 
 /* ABOUT PAGE */
 
+.overlay-content {
+    position: absolute;
+    background-color: #0000007d;
+    border-radius: 5%;
+    padding: 20px;
+    top: 50%; /* Position the content vertically centered */
+    left: 50%; /* Position the content horizontally centered */
+    transform: translate(-50%, -50%); /* Center the content */
+    text-align: center; /* Center-align the text */
+    color: white; /* Set text color to white */
+    z-index: 1; /* Ensure the overlay content is above the image */
+}
+
 .image-banner {
     position: relative;
     text-align: center; /* Center the image */
@@ -355,6 +368,19 @@ p, a, button {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
     object-fit: cover;
 }
+
+
+/* Apply styles only on large screens and up */
+@media screen and (min-width: 1024px) {
+    .image-banner img {
+        width: 100%; /* Set image width to fill the container */
+        height: 950px; /* Maintain aspect ratio */
+        display: block; /* Remove default inline display */
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+        object-fit: cover;
+    }
+}
+
 
 
 /* FAQS PAGE */

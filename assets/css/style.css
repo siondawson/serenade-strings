@@ -127,18 +127,53 @@ p, a, button {
     z-index: 10;
 }
 
+.navbar-home-transparent { /* transparent nav bar originally applied to home page. Now site wide */
+    background-color: #00000000;
+    transition: background-color 0.5s ease;
+    position: absolute; 
+    width: 100%;
+    z-index: 10;
+}
+
 .navbar-home.opaque-background {
+    background-color: #333333; /* Change to your desired color */
+}
+
+.navbar-home-transparent.opaque-background {
     background-color: #333333; /* Change to your desired color */
 }
 
 .nav-link {
     padding-left: 5px !important;
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+
+
+  
+.nav-link::after {
+content: '';
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: #fff;
+transform-origin: bottom right;
+transition: transform 0.25s ease-out;
+}
+  
+.nav-link:hover::after {
+transform: scaleX(1);
+transform-origin: bottom left;
 }
 
 .navbar-nav .nav-link {
-    font-weight: 300; /* or use another value like 600, 700, etc. */
-}
-
+    font-weight: 600; /* or use another value like 600, 700, etc. */
+}  
+  
 /* HOME PAGE */
 
 .alert-container .col-12 {

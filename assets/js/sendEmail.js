@@ -1,34 +1,38 @@
-function sendEmail(event) {
-    event.preventDefault(); // Prevent the default form submission behavior
+const form = document.getElementById('form');
+const result = document.getElementById('result');
 
-    var params = {
-        name: document.getElementById("name").value,
-        contact_number: document.getElementById("contact-number").value,
-        email: document.getElementById("email").value,
-        message: document.getElementById("message").value,
-        where_did_you_hear: document.querySelector('input[name="where-did-you-hear"]:checked') ? document.querySelector('input[name="where-did-you-hear"]:checked').value : '',
-    };
+form.addEventListener('submit', function(e) {
+  e.preventDefault();
+  const formData = new FormData(form);
+  const object = Object.fromEntries(formData);
+  const json = JSON.stringify(object);
+  result.innerHTML = "Please wait..."
 
-    const serviceID = "service_qfwwcsl";
-    const templateID = "AvonStrings";
-
-    emailjs
-        .send(serviceID, templateID, params)
-        .then(
-            res => {
-                document.getElementById("contact-form").innerHTML = `
-                    <h2>Thankyou! Message Sent</h2>
-                    <p>Your message sent successfully. If no reply within 24 hours, please check your spam!</p>
-                    <a href="index.html" class="btn btn-primary">Home Page</a>
-                `;
-                console.log(res);
+    fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: json
+        })
+        .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+                result.innerHTML = "Your message has been sent!";
+            } else {
+                console.log(response);
+                result.innerHTML = json.message;
             }
-        )
-        .catch((err) => {
-            console.error(err);
-            document.getElementById("contact-form").innerHTML = `
-                <h2>Error</h2>
-                <p>There was an error sending your message. Please try again later.</p>
-            `;
+        })
+        .catch(error => {
+            console.log(error);
+            result.innerHTML = "Something went wrong!";
+        })
+        .then(function() {
+            form.reset();
+            setTimeout(() => {
+                result.style.display = "none";
+            }, 20000);
         });
-}
+});

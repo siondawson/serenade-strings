@@ -175,6 +175,12 @@
       {"title": "Summer of ’69", "mp3_file": null}
     ]
   },
+  "Bullet for my Valentine": {
+    "songs": [
+      {"title": "All These Things I Hate", "mp3_file": null},
+      {"title": "Tears Don't Fall", "mp3_file": null}
+    ]
+  },
   "Calum Scott": {
     "songs": [
       {"title": "You are the Reason", "mp3_file": null}
@@ -183,6 +189,11 @@
   "Camila Cabello": {
     "songs": [
       {"title": "Havana", "mp3_file": null}
+    ]
+  },
+  "Catfish & The Bottlemen": {
+    "songs": [
+      {"title": "Hourglass", "mp3_file": null}
     ]
   },
   "Cinematic Orchestra": {
@@ -208,7 +219,7 @@
   },
   "Coldplay": {
     "songs": [
-      {"title": "A Sky Full of Stars", "mp3_file": null},
+      {"title": "A Sky Full of Stars", "mp3_file": "sky-full-of-stars-clip.mp3"},
       {"title": "Adventure of a Lifetime", "mp3_file": null},
       {"title": "Clocks", "mp3_file": null},
       {"title": "Paradise", "mp3_file": null},
@@ -312,7 +323,7 @@
   "Ellie Golding": {
     "songs": [
       {"title": "How Long Will I Love You?", "mp3_file": null},
-      {"title": "Love Me Like You Do", "mp3_file": null}
+      {"title": "Love Me Like You Do", "mp3_file": "love-me-like-you-do-clip.mp3"}
     ]
   },
   "ELO": {
@@ -409,8 +420,8 @@
   },
   "Harry Styles": {
     "songs": [
-      {"title": "Sign of the Times", "mp3_file": null},
-      {"title": "Watermelon Sugar", "mp3_file": null}
+      {"title": "Sign of the Times", "mp3_file": "sign-of-the-times-clip.mp3"},
+      {"title": "Watermelon Sugar", "mp3_file": "watermelonsugar-clip-sq.mp3"}
     ]
   },
   "Hansard": {
@@ -522,6 +533,11 @@
   "The Killers": {
     "songs": [
       {"title": "Mr. Brightside", "mp3_file": null}
+    ]
+  },
+  "Kings of Leon": {
+    "songs": [
+      {"title": "Sex on Fire", "mp3_file": null}
     ]
   },
   "Kodaline": {
@@ -688,7 +704,7 @@
       {"title": "Don’t Look Back in Anger", "mp3_file": null},
       {"title": "Half The World Away", "mp3_file": null},
       {"title": "Whatever", "mp3_file": null},
-      {"title": "Wonderwall", "mp3_file": null}
+      {"title": "Wonderwall", "mp3_file": "wonderwall-clip.mp3"}
     ]
   },
   "Of Monsters and Men": {
@@ -708,6 +724,7 @@
   },
   "Paul Simon": {
     "songs": [
+      {"title": "The Boxer", "mp3_file": null},
       {"title": "You Can Call Me Al", "mp3_file": null}
     ]
   },
@@ -786,7 +803,8 @@
   },
   "The Rolling Stones": {
     "songs": [
-      {"title": "Paint It Black", "mp3_file": null}
+      {"title": "Paint It Black", "mp3_file": null},
+      {"title": "She's a Rainbow", "mp3_file": null}
     ]
   },
   "Ruelle": {

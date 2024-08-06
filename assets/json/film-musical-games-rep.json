@@ -35,6 +35,12 @@
     "Donkey Kong": {
         "songs": [{"title": "Jungle Japes", "mp3_file": null}]
     },
+    "Downton Abbey": {
+        "songs": [
+            {"title": "Theme", "mp3_file": null},
+            {"title": "Duneagle", "mp3_file": null}
+        ]
+    },
     "Fiddler on the Roof": {
         "songs": [{"title": "Sunrise, Sunset", "mp3_file": null}]
     },
@@ -80,6 +86,12 @@
             {"title": "My Neighbour Totoro", "mp3_file": null},
             {"title": "One Summers Day", "mp3_file": null},
             {"title": "Princess Mononoke", "mp3_file": null}
+        ]
+    },
+    "Jurassic Park": {
+        "songs": [
+            {"title": "Main Theme", "mp3_file": null},
+            {"title": "Jurassic Park", "mp3_file": null}
         ]
     },
     "Jungle Book": {
@@ -137,7 +149,7 @@
         "songs": [{"title": "When You Wish Upon a Star", "mp3_file": null}]
     },
     "Pocahontas": {
-        "songs": [{"title": "Colours of the Wind", "mp3_file": "pocahontas-clip-2021.mp3"}]
+        "songs": [{"title": "Colors of the Wind", "mp3_file": "pocahontas-clip-2021.mp3"}]
     },
     "The Princess Bride": {
         "songs": [{"title": "Storybook Love", "mp3_file": null}]
@@ -174,6 +186,11 @@
     },
     "Slumdog Millionaire": {
         "songs": [{"title": "Latika’s Theme", "mp3_file": null}]
+    },
+    "Star Trek": {
+        "songs": [
+            {"title": "First Contact Main Theme", "mp3_file": null}   
+        ]
     },
     "Star Wars": {
         "songs": [

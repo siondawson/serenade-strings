@@ -52,6 +52,11 @@
       {"title": "Best Day of My Life", "mp3_file": "best-day-of-my-life-clip.mp3"}
     ]
   },
+  "Amy Winehouse": {
+    "songs": [
+      {"title": "Valerie", "mp3_file": null}
+    ]
+  },
   "Avicii": {
     "songs": [
       {"title": "Hey Brother", "mp3_file": null},
@@ -271,6 +276,11 @@
       {"title": "Riders on the Storm", "mp3_file": null}
     ]
   },
+  "Dua Lipa": {
+    "songs": [
+      {"title": "Don't Start Now", "mp3_file": null}
+    ]
+  },
   "The Eagles": {
     "songs": [
       {"title": "Hotel California", "mp3_file": null}
@@ -464,14 +474,29 @@
       {"title": "Open Arms", "mp3_file": null}
     ]
   },
+  "Jungle": {
+    "songs": [
+      {"title": "Back on 74", "mp3_file": null}
+    ]
+  },
   "Justin Timberlake": {
     "songs": [
       {"title": "Can’t Stop The Feeling", "mp3_file": null}
     ]
   },
+  "Kansas": {
+    "songs": [
+      {"title": "Carry On My Wayward Son", "mp3_file": null}
+    ]
+  },
   "Kanye West": {
     "songs": [
       {"title": "Gold Digger", "mp3_file": null}
+    ]
+  },
+  "Kate Bush": {
+    "songs": [
+      {"title": "Running Up That Hill", "mp3_file": null}
     ]
   },
   "Katrina and the Waves": {
@@ -499,6 +524,11 @@
       {"title": "Mr. Brightside", "mp3_file": null}
     ]
   },
+  "Kodaline": {
+    "songs": [
+      {"title": "The One", "mp3_file": null}
+    ]
+  },
   "Ben E. King": {
     "songs": [
       {"title": "Stand By Me", "mp3_file": null}
@@ -506,7 +536,8 @@
   },
   "Lady Gaga": {
     "songs": [
-      {"title": "Shallow (A Star is Born)", "mp3_file": null}
+      {"title": "Shallow (A Star is Born)", "mp3_file": null},
+      {"title": "Always Remember Us This Way (A Star is Born)", "mp3_file": null}
     ]
   },
   "Led Zeppelin": {
@@ -543,6 +574,11 @@
   "Luke Combs": {
     "songs": [
       {"title": "Beautiful Crazy", "mp3_file": null}
+    ]
+  },
+  "The Lumineers": {
+    "songs": [
+      {"title": "Flowers in Your Hair", "mp3_file": null}
     ]
   },
   "Lynyrd Skynyrd": {
@@ -602,6 +638,11 @@
       {"title": "Starlight", "mp3_file": null},
       {"title": "Time is Running Out", "mp3_file": null},
       {"title": "Unintended", "mp3_file": null}
+    ]
+  },
+  "Natasha Bedingfield": {
+    "songs": [
+      {"title": "Unwritten", "mp3_file": null}
     ]
   },
   "Natalie Cole": {
@@ -665,6 +706,11 @@
       {"title": "The Only Exception", "mp3_file": null}
     ]
   },
+  "Paul Simon": {
+    "songs": [
+      {"title": "You Can Call Me Al", "mp3_file": null}
+    ]
+  },
   "Percy Sledge": {
     "songs": [
       {"title": "When a Man Loves a Woman", "mp3_file": null}
@@ -714,7 +760,7 @@
   },
   "Queen": {
     "songs": [
-      {"title": "Bohemian Rhapsody", "mp3_file": null},
+      {"title": "Bohemian Rhapsody", "mp3_file": "BohemianRhapsodyMastered.mp3"},
       {"title": "Somebody to Love", "mp3_file": null},
       {"title": "We Are The Champions", "mp3_file": null},
       {"title": "You’re My Best Friend", "mp3_file": null},
@@ -794,6 +840,11 @@
       {"title": "Kiss Me", "mp3_file": null}
     ]
   },
+  "Smashing Pumpkins": {
+    "songs": [
+      {"title": "Tonight, Tonight", "mp3_file": null}
+    ]
+  },
   "The Smiths": {
     "songs": [
       {"title": "Please, Please Please, Let Me Get What I Want", "mp3_file": null}
@@ -824,6 +875,7 @@
   },
   "Taylor Swift": {
     "songs": [
+      {"title": "Fearless", "mp3_file": null},
       {"title": "Invisible String", "mp3_file": null},
       {"title": "Lover", "mp3_file": null},
       {"title": "Love Story", "mp3_file": null},

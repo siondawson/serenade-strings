@@ -196,9 +196,24 @@
       {"title": "Hourglass", "mp3_file": null}
     ]
   },
+  "Chappell Roan": {
+    "songs": [
+      {"title": "Pink Pony Club", "mp3_file": null}
+    ]
+  },
+  "Charlie Puth": {
+    "songs": [
+      {"title": "See You Again", "mp3_file": null}
+    ]
+  },
   "Cinematic Orchestra": {
     "songs": [
       {"title": "Arrival of the Birds", "mp3_file": null}
+    ]
+  },
+  "The Cranberries": {
+    "songs": [
+      {"title": "Zombie", "mp3_file": null}
     ]
   },
   "Cristina Perri": {
@@ -271,6 +286,11 @@
       {"title": "Titanium", "mp3_file": null}
     ]
   },
+  "Dave Matthews Band": {
+    "songs": [
+      {"title": "The Space Between", "mp3_file": null}
+    ]
+  },
   "Destiny’s Child": {
     "songs": [
       {"title": "Survivor", "mp3_file": null},
@@ -282,6 +302,11 @@
       {"title": "Kissing You", "mp3_file": null}
     ]
   },
+  "Dio": {
+    "songs": [
+      {"title": "Rainbow In The Dark", "mp3_file": null}
+    ]
+  },
   "The Doors": {
     "songs": [
       {"title": "Riders on the Storm", "mp3_file": null}
@@ -289,6 +314,7 @@
   },
   "Dua Lipa": {
     "songs": [
+      {"title": "Dance The Night", "mp3_file": null},
       {"title": "Don't Start Now", "mp3_file": null}
     ]
   },
@@ -323,7 +349,8 @@
   "Ellie Golding": {
     "songs": [
       {"title": "How Long Will I Love You?", "mp3_file": null},
-      {"title": "Love Me Like You Do", "mp3_file": "love-me-like-you-do-clip.mp3"}
+      {"title": "Love Me Like You Do", "mp3_file": "love-me-like-you-do-clip.mp3"},
+      {"title": "Still Falling For You", "mp3_file": null}
     ]
   },
   "ELO": {
@@ -348,7 +375,10 @@
     "songs": [
       {"title": "Always On My Mind", "mp3_file": null},
       {"title": "Blue Moon", "mp3_file": null},
-      {"title": "Can’t Help Falling in Love", "mp3_file": null}
+      {"title": "Blue Christmas", "mp3_file": null},
+      {"title": "Can’t Help Falling in Love", "mp3_file": null},
+      {"title": "Hound Dog", "mp3_file": null},
+      {"title": "Jailhouse Rock", "mp3_file": null}
     ]
   },
   "Eurythmics": {
@@ -363,8 +393,9 @@
   },
   "Fleetwood Mac": {
     "songs": [
-      {"title": "Songbird", "mp3_file": null},
-      {"title": "Everywhere", "mp3_file": null}
+      {"title": "Dreams", "mp3_file": null},
+      {"title": "Everywhere", "mp3_file": null},
+      {"title": "Songbird", "mp3_file": null}
     ]
   },
   "Florence + The Machine": {
@@ -459,24 +490,45 @@
       {"title": "I Got You (I Feel Good)", "mp3_file": null}
     ]
   },
+  "Jason Mraz": {
+    "songs": [
+      {"title": "I’m Yours", "mp3_file": null},
+      {"title": "I Won't Give Up", "mp3_file": null}
+    ]
+  },
   "Jennifer Rush": {
     "songs": [
       {"title": "The Power of Love", "mp3_file": null}
     ]
   },
-  "Jason Mraz": {
+  "Jessie Ware": {
     "songs": [
-      {"title": "I’m Yours", "mp3_file": null}
+      {"title": "Alone", "mp3_file": null}
     ]
   },
-  "John Legend": {
+  "Jimi Hendrix": {
     "songs": [
-      {"title": "All of Me", "mp3_file": null}
+      {"title": "Little Wing", "mp3_file": null}
+    ]
+  },
+  "Joel Sunny": {
+    "songs": [
+      {"title": "Luminary", "mp3_file": null}
     ]
   },
   "John Boden": {
     "songs": [
       {"title": "How Long Will I Love You?", "mp3_file": null}
+    ]
+  },
+  "John Denver": {
+    "songs": [
+      {"title": "Annie's Song", "mp3_file": null}
+    ]
+  },
+  "John Legend": {
+    "songs": [
+      {"title": "All of Me", "mp3_file": null}
     ]
   },
   "Journey": {
@@ -488,6 +540,12 @@
   "Jungle": {
     "songs": [
       {"title": "Back on 74", "mp3_file": null}
+    ]
+  },
+  "Justin Bieber": {
+    "songs": [
+      {"title": "2 Much", "mp3_file": null},
+      {"title": "Holy", "mp3_file": null}
     ]
   },
   "Justin Timberlake": {
@@ -542,7 +600,13 @@
   },
   "Kodaline": {
     "songs": [
-      {"title": "The One", "mp3_file": null}
+      {"title": "The One", "mp3_file": null},
+      {"title": "Spend It With You", "mp3_file": null}
+    ]
+  },
+  "Kylie Minogue": {
+    "songs": [
+      {"title": "All The Lovers", "mp3_file": null}
     ]
   },
   "Ben E. King": {
@@ -552,8 +616,9 @@
   },
   "Lady Gaga": {
     "songs": [
-      {"title": "Shallow (A Star is Born)", "mp3_file": null},
-      {"title": "Always Remember Us This Way (A Star is Born)", "mp3_file": null}
+      {"title": "Always Remember Us This Way (A Star is Born)", "mp3_file": null},
+      {"title": "Hold My Hand", "mp3_file": null},
+      {"title": "Shallow (A Star is Born)", "mp3_file": null}
     ]
   },
   "Led Zeppelin": {
@@ -622,6 +687,11 @@
       {"title": "Girls Like You", "mp3_file": null}
     ]
   },
+  "Marvin Gaye": {
+    "songs": [
+      {"title": "Ain't No Mountain High Enough", "mp3_file": null}
+    ]
+  },
   "McFly": {
     "songs": [
       {"title": "It’s All About You", "mp3_file": null}
@@ -664,6 +734,11 @@
   "Natalie Cole": {
     "songs": [
       {"title": "This Will Be (Everlasting Love)", "mp3_file": null}
+    ]
+  },
+  "Nathan Sykes": {
+    "songs": [
+      {"title": "Over and Over Again", "mp3_file": null}
     ]
   },
   "Neil Diamond": {
@@ -775,6 +850,11 @@
       {"title": "I’ll Stand By You", "mp3_file": null}
     ]
   },
+  "Pulp": {
+    "songs": [
+      {"title": "Common People", "mp3_file": null}
+    ]
+  },
   "Queen": {
     "songs": [
       {"title": "Bohemian Rhapsody", "mp3_file": "BohemianRhapsodyMastered.mp3"},
@@ -799,7 +879,8 @@
   },
   "Rihanna & Calvin Harris": {
     "songs": [
-      {"title": "We Found Love", "mp3_file": null}
+      {"title": "We Found Love", "mp3_file": null},
+      {"title": "This Is What You Came For", "mp3_file": null}
     ]
   },
   "The Rolling Stones": {
@@ -833,6 +914,11 @@
       {"title": "Lola's Theme", "mp3_file": null}
     ]
   },
+  "Shanaia Twain": {
+    "songs": [
+      {"title": "You're Still The One Again", "mp3_file": null}
+    ]
+  },
   "Shawn Mendes": {
     "songs": [
       {"title": "In My Blood", "mp3_file": "in-my-blood-clip-2021.mp3"}
@@ -857,6 +943,11 @@
   "Sixpence None The Richer": {
     "songs": [
       {"title": "Kiss Me", "mp3_file": null}
+    ]
+  },
+  "Sleepy Hallow": {
+    "songs": [
+      {"title": "2055", "mp3_file": null}
     ]
   },
   "Smashing Pumpkins": {

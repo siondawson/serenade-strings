@@ -778,11 +778,12 @@
   "Queen": {
     "songs": [
       {"title": "Bohemian Rhapsody", "mp3_file": "BohemianRhapsodyMastered.mp3"},
-      {"title": "Somebody to Love", "mp3_file": null},
-      {"title": "We Are The Champions", "mp3_file": null},
-      {"title": "You’re My Best Friend", "mp3_file": null},
       {"title": "Crazy Little Thing Called Love", "mp3_file": null},
-      {"title": "Don’t Stop Me Now", "mp3_file": null}
+      {"title": "Don’t Stop Me Now", "mp3_file": null},
+      {"title": "Hammer To Fall", "mp3_file": null},
+      {"title": "Somebody to Love", "mp3_file": null},
+      {"title": "We Are The Champions", "mp3_file": null}
+      {"title": "You’re My Best Friend", "mp3_file": null},
     ]
   },
   "Radiohead": {
@@ -892,14 +893,18 @@
     ]
   },
   "Taylor Swift": {
-    "songs": [
-      {"title": "Fearless", "mp3_file": null},
-      {"title": "Invisible String", "mp3_file": null},
-      {"title": "Lover", "mp3_file": null},
-      {"title": "Love Story", "mp3_file": null},
-      {"title": "Wildest Dreams", "mp3_file": "wildest-dreams-clip.mp3"}
-    ]
-  },
+  "songs": [
+    {"title": "Anti-Hero", "mp3_file": null},
+    {"title": "Daylight", "mp3_file": null},
+    {"title": "Fearless", "mp3_file": null},
+    {"title": "Invisible String", "mp3_file": null},
+    {"title": "Love Story", "mp3_file": null},
+    {"title": "Lover", "mp3_file": null},
+    {"title": "Wildest Dreams", "mp3_file": "wildest-dreams-clip.mp3"},
+    {"title": "You Are In Love", "mp3_file": null},
+    {"title": "You Belong With Me", "mp3_file": null}
+  ]
+},
   "Tears for Fears": {
     "songs": [
       {"title": "Everybody Wants to Rule The World", "mp3_file": null}

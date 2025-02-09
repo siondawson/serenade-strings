@@ -1,10 +1,25 @@
 {
   "ABBA": {
     "songs": [
+      {"title": "Angeleyes", "mp3_file": null},
+      {"title": "Chiquitita", "mp3_file": null},
+      {"title": "Dancing Queen", "mp3_file": null},
+      {"title": "Fernando", "mp3_file": null},
+      {"title": "Gimme Gimme Gimme", "mp3_file": null},
       {"title": "I Do, I Do, I Do, I Do, I Do", "mp3_file": null},
-      {"title": "Dancing Queen", "mp3_file": null}
+      {"title": "Knowing Me Knowing You", "mp3_file": null},
+      {"title": "Lay All Your Love on Me", "mp3_file": null},
+      {"title": "Money, Money, Money", "mp3_file": null},
+      {"title": "Mamma Mia", "mp3_file": null},
+      {"title": "S.O.S.", "mp3_file": null},
+      {"title": "Super Trouper", "mp3_file": null},
+      {"title": "The Winner Takes It All", "mp3_file": null},
+      {"title": "Voulez-Vous", "mp3_file": null},
+      {"title": "Waterloo", "mp3_file": null},
+      {"title": "Thank You for the Music", "mp3_file": null}
     ]
   },
+
   "AC/DC": {
     "songs": [
       {"title": "Highway To Hell", "mp3_file": null}
@@ -15,9 +30,15 @@
       {"title": "I Don’t Want to Miss a Thing", "mp3_file": null}
     ]
   },
+  "Alanis Morissette": {
+    "songs": [
+      {"title": "You Oughta Know", "mp3_file": null}
+    ]
+  },
   "Alicia Keys": {
     "songs": [
-      {"title": "If I Ain’t Got You", "mp3_file": null}
+      {"title": "If I Ain’t Got You", "mp3_file": null},
+      {"title": "Empire State of Mine (DUOMO style)", "mp3_file": null}
     ]
   },
   "Aretha Franklin": {
@@ -122,7 +143,9 @@
   },
   "Billie Eilish": {
     "songs": [
-      {"title": "Bad Guy", "mp3_file": null}
+      {"title": "Bad Guy", "mp3_file": null},
+      {"title": "Happier Than Ever", "mp3_file": null},
+      {"title": "Ocean Eyes", "mp3_file": null}
     ]
   },
   "Blur": {
@@ -234,12 +257,16 @@
   },
   "Coldplay": {
     "songs": [
-      {"title": "A Sky Full of Stars", "mp3_file": "sky-full-of-stars-clip.mp3"},
       {"title": "Adventure of a Lifetime", "mp3_file": null},
+      {"title": "A Sky Full of Stars", "mp3_file": "sky-full-of-stars-clip.mp3"},
       {"title": "Clocks", "mp3_file": null},
+      {"title": "Fix You", "mp3_file": null},
+      {"title": "FeesLikeImFallingInLove", "mp3_file": null},
       {"title": "Paradise", "mp3_file": null},
       {"title": "Something Just Like This", "mp3_file": null},
+      {"title": "Speed of Sound", "mp3_file": null},
       {"title": "The Scientist", "mp3_file": null},
+      {"title": "Trouble", "mp3_file": null},
       {"title": "Viva La Vida", "mp3_file": null},
       {"title": "Yellow", "mp3_file": null}
     ]
@@ -278,7 +305,8 @@
   "David Bowie": {
     "songs": [
       {"title": "Heroes", "mp3_file": null},
-      {"title": "Life on Mars", "mp3_file": null}
+      {"title": "Life on Mars", "mp3_file": null}, 
+      {"title": "As The World Falls Down", "mp3_file": null}
     ]
   },
   "David Guetta ft. Sia": {
@@ -330,8 +358,11 @@
   },
   "Ed Sheeran": {
     "songs": [
+      {"title": "Bad Habits", "mp3_file": null},
+      {"title": "Give Me Love", "mp3_file": null},
       {"title": "Perfect", "mp3_file": null},
       {"title": "Photograph", "mp3_file": null},
+      {"title": "Shivers", "mp3_file": null},
       {"title": "Shape of You", "mp3_file": null},
       {"title": "Thinking Out Loud", "mp3_file": null}
     ]
@@ -429,6 +460,11 @@
       {"title": "Let it Go", "mp3_file": null}
     ]
   },
+  "GAYLE": {
+    "songs": [
+      {"title": "abcdefu", "mp3_file": null}
+    ]
+  },
   "Gnarls Barkley": {
     "songs": [
       {"title": "Crazy", "mp3_file": null}
@@ -468,6 +504,11 @@
   "Iron & Wine": {
     "songs": [
       {"title": "Flightless Bird, American Mouth", "mp3_file": null}
+    ]
+  },
+  "Imagine Dragons": {
+    "songs": [
+      {"title": "Thunder", "mp3_file": null}
     ]
   },
   "Israel Kamakawiwo’ole": {
@@ -667,9 +708,19 @@
       {"title": "Sweet Home Alabama", "mp3_file": null}
     ]
   },
+  "Madonna": {
+    "songs": [
+      {"title": "Material Girl", "mp3_file": null}
+    ]
+  },
   "Madness": {
     "songs": [
       {"title": "It Must Be Love", "mp3_file": null}
+    ]
+  },
+  "MAGIC!": {
+    "songs": [
+      {"title": "Rude", "mp3_file": null}
     ]
   },
   "Mark Knopfler": {
@@ -720,10 +771,20 @@
   },
   "Muse": {
     "songs": [
+      {"title": "Will of the People", "mp3_file": null},
       {"title": "Knights of Cydonia", "mp3_file": null},
       {"title": "Starlight", "mp3_file": null},
       {"title": "Time is Running Out", "mp3_file": null},
-      {"title": "Unintended", "mp3_file": null}
+      {"title": "Unintended", "mp3_file": null},
+      {"title": "Feeling Good", "mp3_file": null},
+      {"title": "Supermassive Black Hole", "mp3_file": null},
+      {"title": "Uprising", "mp3_file": null},
+      {"title": "Hysteria", "mp3_file": null},
+      {"title": "Sunburn", "mp3_file": null},
+      {"title": "Undisclosed Desires", "mp3_file": null},
+      {"title": "Plug in Baby", "mp3_file": null},
+      {"title": "Madness", "mp3_file": null},
+      {"title": "Resistance", "mp3_file": null}
     ]
   },
   "Natasha Bedingfield": {
@@ -792,6 +853,11 @@
       {"title": "Fireflies", "mp3_file": null}
     ]
   },
+  "Panic! At The Disco": {
+    "songs": [
+      {"title": "I Write Sings Not Tragedies", "mp3_file": null}
+    ]
+  },
   "Paramore": {
     "songs": [
       {"title": "The Only Exception", "mp3_file": null}
@@ -822,6 +888,11 @@
     "songs": [
       {"title": "Groovy Kind of Love", "mp3_file": null},
       {"title": "You’ll Be in My Heart", "mp3_file": null}
+    ]
+  },
+  "Pitbull": {
+    "songs": [
+      {"title": "Give Me Everything", "mp3_file": null}
     ]
   },
   "Pink": {
@@ -883,6 +954,11 @@
       {"title": "This Is What You Came For", "mp3_file": null}
     ]
   },
+  "Rihanna": {
+    "songs": [
+      {"title": "Diamonds", "mp3_file": null}
+    ]
+  },
   "The Rolling Stones": {
     "songs": [
       {"title": "Paint It Black", "mp3_file": null},
@@ -922,6 +998,11 @@
   "Shawn Mendes": {
     "songs": [
       {"title": "In My Blood", "mp3_file": "in-my-blood-clip-2021.mp3"}
+    ]
+  },
+  "Sophie Ellis-Bextor": {
+    "songs": [
+      {"title": "Murder on the Dancefoor", "mp3_file": null}
     ]
   },
   "Swedish House Mafia": {
@@ -1019,6 +1100,11 @@
   "Toploader": {
     "songs": [
       {"title": "Dancing in the Moonlight", "mp3_file": null}
+    ]
+  },
+  "Tones & I": {
+    "songs": [
+      {"title": "Dance Monkey", "mp3_file": null}
     ]
   },
   "Toto": {

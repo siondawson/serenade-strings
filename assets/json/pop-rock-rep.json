@@ -508,7 +508,9 @@
   },
   "Imagine Dragons": {
     "songs": [
-      {"title": "Thunder", "mp3_file": null}
+      {"title": "Thunder", "mp3_file": "thunder-imagine-dragons-clip.mp3"},
+      {"title": "Believer", "mp3_file": null},
+      {"title": "Demons", "mp3_file": null}
     ]
   },
   "Israel Kamakawiwo’ole": {
@@ -956,7 +958,7 @@
   },
   "Rihanna": {
     "songs": [
-      {"title": "Diamonds", "mp3_file": null}
+      {"title": "Diamonds", "mp3_file": "diamonds-clip.mp3"}
     ]
   },
   "The Rolling Stones": {

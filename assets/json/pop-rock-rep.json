@@ -1270,6 +1270,7 @@
   },
   "Van Morrison": {
     "songs": [
+      {"title": "Brown Eyed Girl", "mp3_file": null},
       {"title": "Have I Told You Lately", "mp3_file": null},
       {"title": "Moondance", "mp3_file": "MoondanceMastered.mp3"}
     ]

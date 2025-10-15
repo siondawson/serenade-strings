@@ -266,7 +266,7 @@
   },
   "Celine Dion": {
     "songs": [
-      {"title": "My Heart Will Go On", "mp3_file": null}
+      {"title": "My Heart Will Go On", "mp3_file": null},
       {"title": "The Prayer", "mp3_file": null}
     ]
   },
@@ -1245,11 +1245,6 @@
   "Toploader": {
     "songs": [
       {"title": "Dancing in the Moonlight", "mp3_file": null}
-    ]
-  },
-  "Tones & I": {
-    "songs": [
-      {"title": "Dance Monkey", "mp3_file": null}
     ]
   },
   "Toto": {

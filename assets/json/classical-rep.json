@@ -48,7 +48,7 @@
     },
     "Claude Debussy": {
         "songs": [
-            {"title": "Clair De Lune", "mp3_file": null}
+            {"title": "Clair De Lune", "mp3_file": "ClairdeLuneMastered.mp3"}
         ]
     },
     "Leo Delibes": {
@@ -66,7 +66,7 @@
     "Edward Elgar": {
         "songs": [
             {"title": "Chanson De Matin", "mp3_file": null},
-            {"title": "Salut d’Amour", "mp3_file": null},
+            {"title": "Salut d’Amour", "mp3_file": "Salut+d'Amour.mp3"},
             {"title": "Serenade for Strings", "mp3_file": null}
         ]
     },
@@ -129,7 +129,7 @@
             {"title": "Ave Verum Corpus", "mp3_file": null},
             {"title": "Der Vogelfänger from The Magic Flute", "mp3_file": null},
             {"title": "Bei Männern from The Magic Flute", "mp3_file": null},
-            {"title": "Drei Divertimenti K.136-138", "mp3_file": null},
+            {"title": "Drei Divertimenti K.136-138", "mp3_file": "DivDMastered.mp3"},
             {"title": "Eine Kleine Nachtmusik", "mp3_file": null},
             {"title": "‘Wedding March’ from The Marriage of Figaro", "mp3_file": null}
         ]
@@ -147,7 +147,7 @@
     },
     "Johann Pachelbel": {
         "songs": [
-            {"title": "Canon in D", "mp3_file": null}
+            {"title": "Canon in D", "mp3_file": "PachelbelMastered.mp3"}
         ]
     },
     "Giacomo Puccini": {

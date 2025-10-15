@@ -44,7 +44,7 @@
     "Russian": {
         "songs": [
             {"title": "Korobeniki & Kalinka", "mp3_file": null},
-            {"title": "Korobushka", "mp3_file": null}
+            {"title": "Korobushka", "mp3_file": "korobushka.mp3"}
         ]
     },
     "Sea Shanty": {

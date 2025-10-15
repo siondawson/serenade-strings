@@ -101,6 +101,9 @@
   "The Beatles": {
     "songs": [
       {"title": "Across The Universe", "mp3_file": null},
+      {"title": "Blackbird", "mp3_file": null},
+      {"title": "Come Together", "mp3_file": null},
+      {"title": "Hey Jude", "mp3_file": null},
       {"title": "Here Come The Sun", "mp3_file": null},
       {"title": "In My Life", "mp3_file": null},
       {"title": "I Saw Her Standing There", "mp3_file": "saw-her-clip.mp3"},
@@ -136,7 +139,8 @@
   },
     "Biffy Clyro": {
     "songs": [
-      {"title": "Space", "mp3_file": null}
+      {"title": "Space", "mp3_file": null},
+      {"title": "Re-Arrange", "mp3_file": null}
     ]
   },
   "Bill Medley": {
@@ -157,6 +161,7 @@
   "Billie Eilish": {
     "songs": [
       {"title": "Bad Guy", "mp3_file": null},
+      {"title": "Birds of a Feather", "mp3_file": null},
       {"title": "Happier Than Ever", "mp3_file": null},
       {"title": "Ocean Eyes", "mp3_file": null}
     ]
@@ -169,7 +174,8 @@
   "Blink 182": {
     "songs": [
       {"title": "All The Small Things", "mp3_file": null},
-      {"title": "First Date", "mp3_file": "first-date-clip.mp3"}
+      {"title": "First Date", "mp3_file": "first-date-clip.mp3"},
+      {"title": "What's My Age Again", "mp3_file": null}
     ]
   },
   "Bob Dylan": {
@@ -193,6 +199,11 @@
       {"title": "Let’s Stick Together", "mp3_file": null}
     ]
   },
+  "Bright Eyes": {
+    "songs": [
+      {"title": "First Day of my Life", "mp3_file": null}
+    ]
+  },
   "Britney Spears": {
     "songs": [
       {"title": "Toxic", "mp3_file": null}
@@ -208,6 +219,7 @@
   "Bryan Adams": {
     "songs": [
       {"title": "(Everything I Do) I Do It For You", "mp3_file": null},
+      {"title": "Heaven", "mp3_file": null},
       {"title": "Summer of ’69", "mp3_file": null}
     ]
   },
@@ -227,6 +239,16 @@
       {"title": "Havana", "mp3_file": null}
     ]
   },
+  "The Carpenters": {
+    "songs": [
+      {"title": "Top of the World", "mp3_file": null}
+    ]
+  },
+  "Carole King": {
+    "songs": [
+      {"title": "You've Got a Friend", "mp3_file": null}
+    ]
+  },
   "Catfish & The Bottlemen": {
     "songs": [
       {"title": "Hourglass", "mp3_file": null}
@@ -235,6 +257,17 @@
   "Cat Stevens": {
     "songs": [
       {"title": "Father & Son", "mp3_file": null}
+    ]
+  },
+  "Celeste": {
+    "songs": [
+      {"title": "Strange", "mp3_file": null}
+    ]
+  },
+  "Celine Dion": {
+    "songs": [
+      {"title": "My Heart Will Go On", "mp3_file": null}
+      {"title": "The Prayer", "mp3_file": null}
     ]
   },
   "Chappell Roan": {
@@ -293,6 +326,11 @@
       {"title": "Trouble", "mp3_file": null},
       {"title": "Viva La Vida", "mp3_file": null},
       {"title": "Yellow", "mp3_file": null}
+    ]
+  },
+  "Coolio": {
+    "songs": [
+      {"title": "Gangsta's Paradise", "mp3_file": null}
     ]
   },
   "Counting Crows": {
@@ -393,6 +431,7 @@
       {"title": "Photograph", "mp3_file": null},
       {"title": "Shivers", "mp3_file": null},
       {"title": "Shape of You", "mp3_file": null},
+      {"title": "Tenerife Sea", "mp3_file": null},
       {"title": "Thinking Out Loud", "mp3_file": null}
     ]
   },
@@ -428,6 +467,7 @@
     "songs": [
       {"title": "Can You Feel the Love Tonight", "mp3_file": null},
       {"title": "Crocodile Rock", "mp3_file": null},
+      {"title": "Guess That's Why They Call It The Blues", "mp3_file": null},
       {"title": "Your Song", "mp3_file": null}
     ]
   },
@@ -489,6 +529,11 @@
       {"title": "Cant Take My Eyes off You", "mp3_file": null}
     ]
   },
+  "Frank Wilson": {
+    "songs": [
+      {"title": "Do I Love You (Indeed I Do)", "mp3_file": null}
+    ]
+  },
   "Frozen": {
     "songs": [
       {"title": "Let it Go", "mp3_file": null}
@@ -497,6 +542,11 @@
   "GAYLE": {
     "songs": [
       {"title": "abcdefu", "mp3_file": null}
+    ]
+  },
+  "George Ezra": {
+    "songs": [
+      {"title": "Barcelona", "mp3_file": null}
     ]
   },
   "Gnarls Barkley": {
@@ -533,6 +583,11 @@
   "Hozier": {
     "songs": [
       {"title": "Take Me To Church", "mp3_file": null}
+    ]
+  },
+  "Iron Maiden": {
+    "songs": [
+      {"title": "The Trooper", "mp3_file": null}
     ]
   },
   "Iron & Wine": {
@@ -734,6 +789,11 @@
       {"title": "Despacito", "mp3_file": "despacito-clip.mp3"}
     ]
   },
+  "Lukas Graham": {
+    "songs": [
+      {"title": "7 Years Old", "mp3_file": null}
+    ]
+  },
   "Luke Combs": {
     "songs": [
       {"title": "Beautiful Crazy", "mp3_file": null}
@@ -870,6 +930,11 @@
       {"title": "L.O.V.E", "mp3_file": null}
     ]
   },
+  "Nothing But Thieves": {
+    "songs": [
+      {"title": "Impossible", "mp3_file": null}
+    ]
+  },
   "Nora Jones": {
     "songs": [
       {"title": "Don’t Know Why", "mp3_file": null}
@@ -902,6 +967,12 @@
   "Paramore": {
     "songs": [
       {"title": "The Only Exception", "mp3_file": null}
+    ]
+  },
+  "Paul Anka": {
+    "songs": [
+      {"title": "Puppy Love", "mp3_file": null}
+      
     ]
   },
   "Paul Simon": {
@@ -988,6 +1059,11 @@
   "Redbone": {
     "songs": [
       {"title": "Come and Get Your Love", "mp3_file": null}
+    ]
+  },
+  "Rembrants": {
+    "songs": [
+      {"title": "I'll Be There for You (Friends Theme)", "mp3_file": null}
     ]
   },
   "Rick Astley": {
@@ -1159,6 +1235,11 @@
   "Tom Odell": {
     "songs": [
       {"title": "Another Love", "mp3_file": null}
+    ]
+  },
+  "Tones & I": {
+    "songs": [
+      {"title": "Dance Monkey", "mp3_file": null}
     ]
   },
   "Toploader": {

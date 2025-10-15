@@ -130,8 +130,9 @@
             {"title": "Der Vogelfänger from The Magic Flute", "mp3_file": null},
             {"title": "Bei Männern from The Magic Flute", "mp3_file": null},
             {"title": "Drei Divertimenti K.136-138", "mp3_file": "DivDMastered.mp3"},
-            {"title": "Eine Kleine Nachtmusik", "mp3_file": null},
-            {"title": "‘Wedding March’ from The Marriage of Figaro", "mp3_file": null}
+            {"title": "Eine Kleine Nachtmusik", "mp3_file": "EineKleineN.mp3"},
+            {"title": "‘Wedding March’ from The Marriage of Figaro", "mp3_file": null},
+            {"title": "String Quartets (Selection)", "mp3_file": "string-quartet-no.3-k.156-presto.mp3"}
         ]
     },
     "Mark O’Connor": {

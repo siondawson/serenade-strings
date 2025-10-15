@@ -95,11 +95,11 @@
       {"title": "Across The Universe", "mp3_file": null},
       {"title": "Here Come The Sun", "mp3_file": null},
       {"title": "In My Life", "mp3_file": null},
-      {"title": "I Saw Her Standing There", "mp3_file": null},
+      {"title": "I Saw Her Standing There", "mp3_file": "saw-her-clip.mp3"},
       {"title": "I Want To Hold Your Hand", "mp3_file": null},
       {"title": "When I’m Sixty Four", "mp3_file": null},
       {"title": "All You Need is Love", "mp3_file": "all-you-need-is-love-clip-2021.mp3"},
-      {"title": "Eleanor Rigby", "mp3_file": null},
+      {"title": "Eleanor Rigby", "mp3_file": "EleanorRigbyMastered.mp3"},
       {"title": "Yesterday", "mp3_file": null},
       {"title": "With a Little Help From My Friends", "mp3_file": null}
     ]
@@ -117,12 +117,12 @@
   "Beyoncé": {
     "songs": [
       {"title": "Ave Maria", "mp3_file": null},
-      {"title": "Crazy In Love", "mp3_file": null},
+      {"title": "Crazy In Love", "mp3_file": "crazy-in-love-clip.mp3"},
       {"title": "Formation", "mp3_file": null},
-      {"title": "Love on Top", "mp3_file": null},
+      {"title": "Love on Top", "mp3_file": "love-on-top-clip.mp3"},
       {"title": "Sandcastles", "mp3_file": null},
-      {"title": "Single Ladies (Put a Ring on It)", "mp3_file": null},
-      {"title": "Halo", "mp3_file": null},
+      {"title": "Single Ladies (Put a Ring on It)", "mp3_file": "Single+Ladies+(Put+a+Ring+on+It).mp3"},
+      {"title": "Halo", "mp3_file": "halo-clip.mp3"},
       {"title": "XO", "mp3_file": null}
     ]
   },
@@ -241,7 +241,7 @@
   },
   "Cristina Perri": {
     "songs": [
-      {"title": "A Thousand Years", "mp3_file": null}
+      {"title": "A Thousand Years", "mp3_file": "AThousandYearsMastered.mp3"}
     ]
   },
   "Eric Clapton": {
@@ -321,8 +321,8 @@
   },
   "Destiny’s Child": {
     "songs": [
-      {"title": "Survivor", "mp3_file": null},
-      {"title": "Independent Woman", "mp3_file": null}
+      {"title": "Survivor", "mp3_file": "Survivor.mp3"},
+      {"title": "Independent Woman", "mp3_file": "independent-women-clip.mp3"}
     ]
   },
   "Des’ree": {
@@ -654,7 +654,7 @@
   },
   "Ben E. King": {
     "songs": [
-      {"title": "Stand By Me", "mp3_file": null}
+      {"title": "Stand By Me", "mp3_file": "Stand+By+Me+Take+4.mp3"}
     ]
   },
   "Lady Gaga": {
@@ -692,7 +692,7 @@
   },
   "Luis Fonsi": {
     "songs": [
-      {"title": "Despacito", "mp3_file": null}
+      {"title": "Despacito", "mp3_file": "despacito-clip.mp3"}
     ]
   },
   "Luke Combs": {
@@ -883,7 +883,7 @@
   },
   "Pharrell Williams": {
     "songs": [
-      {"title": "Happy", "mp3_file": null}
+      {"title": "Happy", "mp3_file": "HappyMastered.mp3"}
     ]
   },
   "Phil Collins": {
@@ -975,11 +975,6 @@
   "Sade": {
     "songs": [
       {"title": "By Your Side", "mp3_file": null}
-    ]
-  },
-  "Sam Cooke": {
-    "songs": [
-      {"title": "Bring It On Home", "mp3_file": null}
     ]
   },
   "Sam Smith": {
@@ -1128,7 +1123,7 @@
   "Van Morrison": {
     "songs": [
       {"title": "Have I Told You Lately", "mp3_file": null},
-      {"title": "Moondance", "mp3_file": null}
+      {"title": "Moondance", "mp3_file": "MoondanceMastered.mp3"}
     ]
   },
   "The Verve": {
@@ -1138,7 +1133,7 @@
   },
   "Walk The Moon": {
     "songs": [
-      {"title": "Shut Up and Dance", "mp3_file": null}
+      {"title": "Shut Up and Dance", "mp3_file": "shut-up-clip.mp3"}
     ]
   },
   "Willie Nelson": {

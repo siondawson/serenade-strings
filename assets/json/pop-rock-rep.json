@@ -650,7 +650,11 @@
   },
   "John Boden": {
     "songs": [
-      {"title": "How Long Will I Love You?", "mp3_file": null}
+      {
+        "title": "How Long Will I Love You?",
+        "video_aderyn": "https://youtu.be/zE165v5mIQM",
+        "video_description": "Aderyn String Quartet performing 'How Long Will I Love You?' live"
+      }
     ]
   },
   "John Denver": {
@@ -1272,7 +1276,7 @@
   },
   "The Verve": {
     "songs": [
-      {"title": "Bittersweet Symphony", "mp3_file": null}
+      {"title": "Bittersweet Symphony"}
     ]
   },
   "Walk The Moon": {

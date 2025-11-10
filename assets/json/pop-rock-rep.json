@@ -105,11 +105,13 @@
       {"title": "Come Together", "mp3_file": null},
       {"title": "Hey Jude", "mp3_file": null},
       {"title": "Here Come The Sun", "mp3_file": null},
-      {"title": "In My Life", "mp3_file": null},
+      {"title": "In My Life", 
+        "video_aderyn": "https://youtu.be/Y0xQJBV41n4",
+        "video_description": "An audience member recorded video from Somerton Music Festival 2023. Basic video quality but we loved the vibe."},
       {"title": "I Saw Her Standing There", "mp3_file": "saw-her-clip.mp3"},
       {"title": "I Want To Hold Your Hand",
         "video_aderyn": "https://youtu.be/MgiMWfV0g8Y",
-        "video_description": "Our cover of this classic Beatles song. Recorded at St Sampson's Church near Callington in Cornwall."},
+        "video_description": "Our cover of this classic Beatles song. Recorded at St Sampson's Church near Callington, Cornwall."},
       {"title": "When I’m Sixty Four", "mp3_file": null},
       {"title": "All You Need is Love", "mp3_file": "all-you-need-is-love-clip-2021.mp3"},
       {"title": "Eleanor Rigby", "mp3_file": "EleanorRigbyMastered.mp3"},
@@ -228,7 +230,9 @@
   "Bullet for my Valentine": {
     "songs": [
       {"title": "All These Things I Hate", "mp3_file": null},
-      {"title": "Tears Don't Fall", "mp3_file": null}
+      {"title": "Tears Don't Fall",
+        "video_aderyn": "https://youtu.be/wHlyDviETUk",
+        "video_description": "“Tears Don’t Fall” is a 2006 hit by Welsh metal band Bullet For My Valentine, known for its emotional lyrics and powerful riffs. This unique string quartet arrangement by Siôn was recorded live at Musicbox Studios, Cardiff."}
     ]
   },
   "Calum Scott": {

@@ -173,6 +173,7 @@
     "Pirates of The Caribbean": {
         "songs": [
             {"title": "The Curse of the Black Pearl Medley", "mp3_file": "pirates-clip.mp3"},
+            {"title": "Dead Man's Chest Medley", "mp3_file": null},
             {"title": "He's a Pirate", "mp3_file": null}
         ]
     },

@@ -5,6 +5,9 @@
     "Band of Brothers": {
         "songs": [{"title": "Theme", "mp3_file": null}]
     },
+    "Batman v Superman": {
+        "songs": [{"title": "Wonder Woman Theme", "mp3_file": null}]
+    },
     "Beauty and The Beast": {
         "songs": [{"title": "Tale as Old as Time", "mp3_file": null}]
     },
@@ -29,6 +32,9 @@
     "Dads Army": {
         "songs": [{"title": "Theme", "mp3_file": null}]
     },
+    "The Dark Knight": {
+        "songs": [{"title": "A Dark Knight", "mp3_file": null}]
+    },
     "Disney Medley": {
         "songs": []
     },
@@ -40,6 +46,14 @@
             {"title": "Theme", "mp3_file": null},
             {"title": "Duneagle", "mp3_file": null}
         ]
+    },
+    "Dune": {
+        "songs": [{"title": "Hearald of Change", "mp3_file": null},
+                  {"title": "Leaving Caladan", "mp3_file": null}
+                ]
+    },
+    "Dunkirk": {
+        "songs": [{"title": "Supermarine", "mp3_file": null}]
     },
     "Fiddler on the Roof": {
         "songs": [{"title": "Sunrise, Sunset", "mp3_file": null}]
@@ -55,6 +69,10 @@
     },
     "Games of Thrones": {
         "songs": [{"title": "Theme", "mp3_file": null}]
+    },
+    "Gladiator": {
+        "songs": [{"title": "Medley", "mp3_file": null},
+                  {"title": "Now We Are Free", "mp3_file": null}]
     },
     "The Godfather": {
         "songs": [{"title": "Love Theme", "mp3_file": null}]
@@ -79,6 +97,9 @@
     },
     "Inglorious Basterds": {
         "songs": [{"title": "Tarantella e Rabbia", "mp3_file": null}]
+    },
+    "Interstellar": {
+        "songs": [{"title": "Cornfield Chase", "mp3_file": null}]
     },
     "Joe Hisaishi": {
         "songs": [
@@ -107,7 +128,8 @@
         "songs": [{"title": "Part of Your World", "mp3_file": null}]
     },
     "Lion King": {
-        "songs": [{"title": "Can You Feel the Love Tonight", "mp3_file": null}]
+        "songs": [{"title": "Can You Feel the Love Tonight", "mp3_file": null}],
+        "songs": [{"title": "This Land", "mp3_file": null}]
     },
     "Lord of the Rings": {
         "songs": [
@@ -117,6 +139,9 @@
     },
     "Love Actually": {
         "songs": [{"title": "Portuguese Love Theme", "mp3_file": null}]
+    },
+    "Madagascar": {
+        "songs": [{"title": "Zooster's Breakout", "mp3_file": null}]
     },
     "Miss Marple": {
         "songs": [{"title": "Theme", "mp3_file": null}]
@@ -129,6 +154,12 @@
     },
     "Notting Hill": {
         "songs": [{"title": "She", "mp3_file": null}]
+    },
+    "The Pacific": {
+        "songs": [{"title": "Honor", "mp3_file": null}]
+    },
+    "Pearl Harbor": {
+    "songs": [{"title": "Tenessee", "mp3_file": null}]
     },
     "Phantom of the Opera": {
         "songs": [{"title": "All I Ask of You", "mp3_file": null}]
@@ -184,8 +215,14 @@
     "Up": {
         "songs": [{"title": "Married Life", "mp3_file": null}]
     },
+    "Sherlock Holmes": {
+        "songs": [{"title": "Discombobulate", "mp3_file": null}]
+    },
     "Slumdog Millionaire": {
         "songs": [{"title": "Latika’s Theme", "mp3_file": null}]
+    },
+    "Spirit: Stallion of the Cimarron": {
+    "songs": [{"title": "Home Land (Main Title)", "mp3_file": null}]
     },
     "Star Trek": {
         "songs": [

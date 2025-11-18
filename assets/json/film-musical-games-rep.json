@@ -89,6 +89,11 @@
             {"title": "Medley", "mp3_file": null}
         ]
     },
+    "How To Train Your Dragon": {
+        "songs": [{"title": "Romantic Flight", "mp3_file": null},
+                  {"title": "For The Dancing and the Dreaming", "mp3_file": null},
+                  {"title": "Test Drive", "mp3_file": null}]
+    },
     "Inception": {
         "songs": [{"title": "Time", "mp3_file": null}]
     },

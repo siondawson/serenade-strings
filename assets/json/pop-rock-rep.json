@@ -82,7 +82,8 @@
   },
   "Avicii": {
     "songs": [
-      {"title": "Hey Brother", "mp3_file": null},
+      {"title": "Hey Brother", "mp3_file": null, "video_aderyn": "https://youtu.be/ju4fOvmOo0o?si=An7ih1ef6Oet6kex", "video_description": "Hey Brother — live at Shift, Cardiff. A crowd-pleaser for weddings and events, with a driving rhythm that really works for a lively reception."
+},
       {"title": "Wake Me Up", "mp3_file": null}
     ]
   },
@@ -105,16 +106,13 @@
       {"title": "Come Together", "mp3_file": null},
       {"title": "Hey Jude", "mp3_file": null},
       {"title": "Here Come The Sun", "mp3_file": null},
-      {"title": "In My Life", 
-        "video_aderyn": "https://youtu.be/Y0xQJBV41n4",
-        "video_description": "An audience member recorded video from Somerton Music Festival 2023. Basic video quality but we loved the vibe."},
-      {"title": "I Saw Her Standing There", "mp3_file": "saw-her-clip.mp3"},
-      {"title": "I Want To Hold Your Hand",
-        "video_aderyn": "https://youtu.be/MgiMWfV0g8Y",
-        "video_description": "Our cover of this classic Beatles song. Recorded at St Sampson's Church near Callington, Cornwall."},
+      {"title": "In My Life", "video_aderyn": "https://youtu.be/Y0xQJBV41n4", "video_description": "An audience member recorded video from Somerton Music Festival 2023. Basic video quality but we loved the vibe."},
+      {"title": "I Saw Her Standing There", "mp3_file": "saw-her-clip.mp3", "video_aderyn": "https://youtu.be/zOHGF4sjYmw?si=Xh4oC3PBkuGGYdkf", "video_description": "The Beatles’ I Saw Her Standing There — a fun, fast classic that shows our more lively side for drinks receptions and party sets."},
+      {"title": "I Want To Hold Your Hand", "video_aderyn": "https://youtu.be/MgiMWfV0g8Y", "video_description": "Our cover of this classic Beatles song. Recorded at St Sampson's Church near Callington, Cornwall."},
       {"title": "When I’m Sixty Four", "mp3_file": null},
       {"title": "All You Need is Love", "mp3_file": "all-you-need-is-love-clip-2021.mp3"},
-      {"title": "Eleanor Rigby", "mp3_file": "EleanorRigbyMastered.mp3"},
+      {"title": "Eleanor Rigby", "mp3_file": "EleanorRigbyMastered.mp3", "video_aderyn": "https://youtu.be/JVfUA6tOHQ4?si=j-MWKq3slfQq4QQj", "video_description": "Eleanor Rigby — recorded in a church. We love how the natural acoustics suit the drama of the arrangement and bring out that classic Beatles mood."
+},
       {"title": "Yesterday", "mp3_file": null},
       {"title": "With a Little Help From My Friends", "mp3_file": null}
     ]
@@ -132,11 +130,11 @@
   "Beyoncé": {
     "songs": [
       {"title": "Ave Maria", "mp3_file": null},
-      {"title": "Crazy In Love", "mp3_file": "crazy-in-love-clip.mp3"},
+      {"title": "Crazy In Love", "mp3_file": "crazy-in-love-clip.mp3", "video_aderyn": "https://youtu.be/hVCsAoLf-7A?si=qFd6lh__6mxcrLHh", "video_description": "Crazy In Love — live at Shift, Cardiff. A high-energy Beyoncé cover that’s brilliant for wedding drinks receptions and party sets."},
       {"title": "Formation", "mp3_file": null},
       {"title": "Love on Top", "mp3_file": "love-on-top-clip.mp3"},
       {"title": "Sandcastles", "mp3_file": null},
-      {"title": "Single Ladies (Put a Ring on It)", "mp3_file": "Single+Ladies+(Put+a+Ring+on+It).mp3"},
+      {"title": "Single Ladies (Put a Ring on It)", "mp3_file": "Single+Ladies+(Put+a+Ring+on+It).mp3", "video_aderyn": "https://youtu.be/Ja7hEPryjas?si=dB6PhAczV5NpJ435", "video_description": "Single Ladies — audio recording from a Beyoncé tribute set we put together for Cardiff University, around the time she performed at the stadium. Proper fun to arrange and play."},
       {"title": "Halo", "mp3_file": "halo-clip.mp3"},
       {"title": "XO", "mp3_file": null}
     ]
@@ -164,7 +162,9 @@
   },
   "Billie Eilish": {
     "songs": [
-      {"title": "Bad Guy", "mp3_file": null},
+      {"title": "Bad Guy", "mp3_file": null, "video_aderyn": "https://youtu.be/giA8W5qPdzg?si=UUfFWAjrkN478SkC",
+        "video_description": "The Bridgerton string quartet version of Billie Eilish's hit song. Recorded live."
+                                },
       {"title": "Birds of a Feather", "mp3_file": null},
       {"title": "Happier Than Ever", "mp3_file": null},
       {"title": "Ocean Eyes", "mp3_file": null}
@@ -229,10 +229,8 @@
   },
   "Bullet for my Valentine": {
     "songs": [
-      {"title": "All These Things I Hate", "mp3_file": null},
-      {"title": "Tears Don't Fall",
-        "video_aderyn": "https://youtu.be/wHlyDviETUk",
-        "video_description": "“Tears Don’t Fall” is a 2006 hit by Welsh metal band Bullet For My Valentine, known for its emotional lyrics and powerful riffs. This unique string quartet arrangement by Siôn was recorded live at Musicbox Studios, Cardiff."}
+      {"title": "All These Things I Hate", "mp3_file": null, "video_aderyn": "https://youtu.be/4mMOOSNrUDE?si=u5PXW-ksc0P6_UoW", "video_description": "Bullet For My Valentine’s All These Things I Hate — studio audio from Musicbox Studios in Cardiff. Dark, dramatic, and surprisingly powerful on strings."},
+      {"title": "Tears Don't Fall", "video_aderyn": "https://youtu.be/wHlyDviETUk", "video_description": "“Tears Don’t Fall” is a 2006 hit by Welsh metal band Bullet For My Valentine, known for its emotional lyrics and powerful riffs. This unique string quartet arrangement by Siôn was recorded live at Musicbox Studios, Cardiff."}
     ]
   },
   "Calum Scott": {
@@ -526,7 +524,7 @@
   },
   "Frank Sinatra": {
     "songs": [
-      {"title": "Fly Me To The Moon", "mp3_file": null},
+      {"title": "Fly Me To The Moon", "mp3_file": null, "video_aderyn": "https://youtu.be/-NtGaLx9-LM?si=vlF9_v3j34pLBoaj", "video_description": "Fly Me To The Moon — live at Shift, Cardiff. A classic jazz tune in our string quartet style, ideal for weddings and events."},
       {"title": "Strangers in the Night", "mp3_file": null}
     ]
   },
@@ -925,9 +923,10 @@
   },
   "Nick Cave": {
     "songs": [
-      {"title": "Red Right Hand", "mp3_file": null},
+      {"title": "Red Right Hand", "mp3_file": null, "video_aderyn": "https://youtu.be/xBTFG937uns?si=7MLmGNlqfiTPt_lk",
+        "video_description": "Our cover of Nick Cave's classic song. Recorded in Shift, Cardiff. Known also as the Peaky Blinders Theme."},
       {"title": "The Ship Song", "mp3_file": null},
-      {"title": "The Weeping Song", "mp3_file": null, "video_aderyn": "https://youtu.be/9kWfmGAN1sS",
+      {"title": "The Weeping Song", "mp3_file": null, "video_aderyn": "https://youtu.be/yr9-H-S5H1Q?si=bR9dncfJWq-hpNFe",
         "video_description": "Arranged by Bojana Jovanovich, recorded in Shift, Cardiff. We turned the lights off to try match the vibe of the song."}
     ]
   },
@@ -1288,7 +1287,8 @@
   },
   "Walk The Moon": {
     "songs": [
-      {"title": "Shut Up and Dance", "mp3_file": "shut-up-clip.mp3"}
+      {"title": "Shut Up and Dance", "mp3_file": "shut-up-clip.mp3", "video_aderyn": "https://youtu.be/yOhpBO87rDw?si=9bwG_Pouww5pDxL2", "video_description": "Shut Up and Dance — one of our go-to feel-good tunes. It’s fast, punchy, and shows how well pop hooks translate to a string group."
+}
     ]
   },
   "Westlife": {

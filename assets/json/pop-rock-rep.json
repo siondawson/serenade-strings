@@ -927,7 +927,8 @@
     "songs": [
       {"title": "Red Right Hand", "mp3_file": null},
       {"title": "The Ship Song", "mp3_file": null},
-      {"title": "The Weeping Song", "mp3_file": null}
+      {"title": "The Weeping Song", "mp3_file": null, "video_aderyn": "https://youtu.be/9kWfmGAN1sS",
+        "video_description": "Arranged by Bojana Jovanovich, recorded in Shift, Cardiff. We turned the lights off to try match the vibe of the song."}
     ]
   },
   "Nick Cave/ Kylie Minogue": {

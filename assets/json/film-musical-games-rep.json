@@ -143,7 +143,7 @@
     },
     "Lord of the Rings": {
         "songs": [
-            {"title": "Concerning Hobbits", "mp3_file": "concerning-hobbits-clip-2021.mp3"},
+            {"title": "Concerning Hobbits", "mp3_file": "concerning-hobbits-clip-2021.mp3", "video_aderyn": "https://youtu.be/r_CvV_-GH70", "video_description": "Concerning Hobbits — from a showreel we made for Holland America Line. We love this one for the warm, cinematic feel and that instantly recognisable LOTR charm."},
             {"title": "Return of the King", "mp3_file": null}
         ]
     },
@@ -182,7 +182,7 @@
     },
     "Pirates of The Caribbean": {
         "songs": [
-            {"title": "The Curse of the Black Pearl Medley", "mp3_file": "pirates-clip.mp3"},
+            {"title": "The Curse of the Black Pearl Medley", "mp3_file": "pirates-clip.mp3", "video_aderyn": "https://youtu.be/aTMFa4dfzGQ", "video_description": "Pirates Medley — recorded live at one of our concerts. One of our biggest videos (15k+ views) and a proper crowd-pleaser on strings."},
             {"title": "Dead Man's Chest Medley", "mp3_file": null},
             {"title": "He's a Pirate", "mp3_file": null}
         ]

@@ -1076,6 +1076,11 @@
       {"title": "I'll Be There for You (Friends Theme)", "mp3_file": null}
     ]
   },
+  "R.E.M.": {
+    "songs": [
+      {"title": "Shiny Happy People", "mp3_file": null, "video_aderyn": "https://youtu.be/R_BNDuL3OLc", "video_description": "Shiny Happy People — a full lockdown band collaboration with our musical friends. Our cellist Siôn arranged the string parts, mixed the track, and took guitar/lead vocals — and he also edited the video from everyone’s individual clips into one big picture-in-picture performance."}
+    ]
+  },
   "Rick Astley": {
     "songs": [
       {"title": "Never Gonna Give You Up", "mp3_file": null}

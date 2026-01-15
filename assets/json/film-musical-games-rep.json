@@ -89,6 +89,9 @@
             {"title": "Medley", "mp3_file": null}
         ]
     },
+    "Hercules": {
+        "songs": [{"title": "Go The Distance", "mp3_file": null}]
+    },  
     "How To Train Your Dragon": {
         "songs": [{"title": "Romantic Flight", "mp3_file": null},
                   {"title": "For The Dancing and the Dreaming", "mp3_file": null},
@@ -106,12 +109,14 @@
     "Interstellar": {
         "songs": [{"title": "Cornfield Chase", "mp3_file": null}]
     },
-    "Joe Hisaishi": {
+    "Joe Hisaishi (Studio Ghibli)": {
         "songs": [
             {"title": "Always With Me", "mp3_file": null},
+            {"title": "Ashitaka and San", "mp3_file": null},
             {"title": "My Neighbour Totoro", "mp3_file": null},
             {"title": "One Summers Day", "mp3_file": null},
-            {"title": "Princess Mononoke", "mp3_file": null}
+            {"title": "Princess Mononoke", "mp3_file": null},
+            {"title": "Merry Go Round of Life", "mp3_file": null}
         ]
     },
     "Jurassic Park": {

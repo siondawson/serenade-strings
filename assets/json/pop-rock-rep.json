@@ -328,7 +328,7 @@
       {"title": "Speed of Sound", "mp3_file": null},
       {"title": "The Scientist", "mp3_file": null},
       {"title": "Trouble", "mp3_file": null},
-      {"title": "Viva La Vida", "mp3_file": null},
+      {"title": "Viva La Vida", "mp3_file": "viva-la-vida-short.mp3"},
       {"title": "Yellow", "mp3_file": null}
     ]
   },
@@ -339,7 +339,7 @@
   },
   "Counting Crows": {
     "songs": [
-      {"title": "Accidentally In Love", "mp3_file": null}
+      {"title": "Accidentally In Love", "mp3_file": "accidentally-in-love-short-clip.mp3"}
     ]
   },
   "Sam Cooke": {
@@ -545,7 +545,7 @@
   },
   "GAYLE": {
     "songs": [
-      {"title": "abcdefu", "mp3_file": null}
+      {"title": "abcdefu", "mp3_file": "abcdefu-short-clip.mp3"}
     ]
   },
   "George Ezra": {
@@ -819,7 +819,7 @@
   },
   "Madonna": {
     "songs": [
-      {"title": "Material Girl", "mp3_file": null}
+      {"title": "Material Girl", "mp3_file": "cheap-thrills-short-clip.mp3"}
     ]
   },
   "Madness": {
@@ -1146,7 +1146,7 @@
   "Sia": {
     "songs": [
       {"title": "Chandelier", "mp3_file": null},
-      {"title": "Cheap Thrills", "mp3_file": null}
+      {"title": "Cheap Thrills", "mp3_file": "cheap-thrills-short-clip.mp3"}
     ]
   },
   "Sigur Ros": {

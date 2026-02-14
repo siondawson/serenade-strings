@@ -29,6 +29,9 @@
     "Breakfast at Tiffany’s": {
         "songs": [{"title": "Moon River", "mp3_file": null}]
     },
+    "Bridgerton": {
+        "songs": [{"title": "Theme", "mp3_file": "bridgerton-theme-short-clip.mp3"}]
+    },
     "Dads Army": {
         "songs": [{"title": "Theme", "mp3_file": null}]
     },

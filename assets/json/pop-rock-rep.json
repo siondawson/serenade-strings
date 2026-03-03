@@ -766,6 +766,12 @@
       {"title": "Shallow (A Star is Born)", "mp3_file": null}
     ]
   },
+  "Lana Del Ray": {
+    "songs": [
+      {"title": "Young and Beautiful", "mp3_file": null}
+
+    ]
+  },
   "Led Zeppelin": {
     "songs": [
       {"title": "Kashmir", "mp3_file": null},
@@ -1133,6 +1139,11 @@
       {"title": "In My Blood", "mp3_file": "in-my-blood-clip-2021.mp3"}
     ]
   },
+  "Slipknot": {
+    "songs": [
+      {"title": "Vermillion Pt.2", "mp3_file": null}
+    ]
+  },
   "Sophie Ellis-Bextor": {
     "songs": [
       {"title": "Murder on the Dancefoor", "mp3_file": null}
@@ -1216,11 +1227,15 @@
   "songs": [
     {"title": "Anti-Hero", "mp3_file": null},
     {"title": "Daylight", "mp3_file": null},
+    {"title": "Enchanted", "mp3_file": null},
     {"title": "Fearless", "mp3_file": null},
     {"title": "Invisible String", "mp3_file": null},
     {"title": "The Lakes", "mp3_file": null},
     {"title": "Love Story", "mp3_file": null},
     {"title": "Lover", "mp3_file": null},
+    {"title": "Mine", "mp3_file": null},
+    {"title": "Paper Rings", "mp3_file": null},
+    {"title": "Snow On The Beach", "mp3_file": null},
     {"title": "So Long London", "mp3_file": null},
     {"title": "Wildest Dreams", "mp3_file": "wildest-dreams-clip.mp3"},
     {"title": "You Are In Love", "mp3_file": null},

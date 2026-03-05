@@ -246,7 +246,7 @@ transform-origin: bottom left;
 }
 
 .review-bg {
-    height: 40vh;
+    height: 30vh;
     background: url('../images/serenade-strings-1-small.webp');
     background-position: center 20%;
     -webkit-background-size: cover;

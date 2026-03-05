@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    console.log("script.js")
     // Function to handle menu toggle
     function handleMenuToggle() {
         var navbarHome = document.querySelector('.navbar-home');

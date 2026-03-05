@@ -1,0 +1,30 @@
+---
+layout: base.njk
+metaKey: faq
+---
+
+<div class="container-fluid" id="faq-banner">
+  <!-- Add your FAQ banner image or style via CSS if needed -->
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 pt-5">
+      <h2>FAQs</h2>
+      <p>
+        Here are some answers to frequently asked questions.
+        If you can't find the answer you are looking for, please
+        <a href="/contact/">get in touch</a> and we will answer right away!
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="faqs" class="container mb-5">
+  {% for question, answer in json.faq %}
+    <div class="faq-item mb-4">
+      <h3>{{ question }}</h3>
+      <hr class="faq-hr">
+      <p>{{ answer }}</p>
+    </div>
+  {% endfor %}
+</div>

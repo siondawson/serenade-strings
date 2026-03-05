@@ -1,0 +1,80 @@
+---
+layout: base.njk
+metaKey: repertoire
+---
+
+<div class="container-fluid" id="repertoire-banner"></div>
+
+<div class="container pt-5">
+  <div class="row pb-5">
+    <div class="col-12 text-center font-montserrat">
+      <h1>Repertoire</h1>
+      <p>Want us to play something that's not listed? Just let us know. Requests are included in every booking!</p>
+    </div>
+  </div>
+  <div class="accordion" id="accordionExample">
+
+    {% set categories = [
+      { "id": "rock-pop", "label": "Rock/Pop", "data": json["pop-rock-rep"], "ul_id": "rock-pop-list" },
+      { "id": "classical", "label": "Classical", "data": json["classical-rep"], "ul_id": "classical-list" },
+      { "id": "film", "label": "Film/ TV/ Videogames", "data": json["film-musical-games-rep"], "ul_id": "film-list" },
+      { "id": "jazz", "label": "Jazz", "data": json["jazz-rep"], "ul_id": "jazz-list" },
+      { "id": "traditional", "label": "Traditional/ Folk", "data": json["traditional-rep"], "ul_id": "traditional-list" },
+      { "id": "tango", "label": "Tangos", "data": json["tango-rep"], "ul_id": "tango-list" }
+    ] %}
+
+    {% for cat in categories %}
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="{{ cat.id }}-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#{{ cat.id }}" aria-expanded="false" aria-controls="{{ cat.id }}">
+          {{ cat.label }}
+        </button>
+      </h2>
+      <div id="{{ cat.id }}" class="accordion-collapse collapse" aria-labelledby="{{ cat.id }}-header" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul id="{{ cat.ul_id }}">
+            {% for artist, entry in cat.data %}
+              {% for song in entry.songs %}
+                <li>
+                  {{ artist }} - {{ song.title }}
+                  {% if song.mp3_file %}
+                    <i class="fas fa-volume-low play-audio" data-src="/assets/audio/{{ song.mp3_file }}"></i>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
+
+<script>
+let currentlyPlayingAudio = null;
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.play-audio').forEach(icon => {
+    icon.addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (currentlyPlayingAudio && currentlyPlayingAudio.audio) {
+        currentlyPlayingAudio.audio.pause();
+        currentlyPlayingAudio.icon.classList.remove('text-danger', 'fa-volume-up');
+      }
+      if (currentlyPlayingAudio && currentlyPlayingAudio.icon === icon) {
+        currentlyPlayingAudio = null;
+        return;
+      }
+      const audio = new Audio(this.getAttribute('data-src'));
+      audio.play();
+      icon.classList.add('fa-volume-up', 'text-danger');
+      currentlyPlayingAudio = { audio, icon };
+      audio.addEventListener('ended', () => {
+        icon.classList.remove('text-danger', 'fa-volume-up');
+        currentlyPlayingAudio = null;
+      });
+    });
+  });
+});
+</script>

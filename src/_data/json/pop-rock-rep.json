@@ -14,6 +14,7 @@
       {"title": "Slipping Through My Fingers", "mp3_file": null},
       {"title": "S.O.S.", "mp3_file": null},
       {"title": "Super Trouper", "mp3_file": null},
+      {"title": "Take a Chance on Me", "mp3_file": null},
       {"title": "The Winner Takes It All", "mp3_file": null},
       {"title": "Voulez-Vous", "mp3_file": null},
       {"title": "Waterloo", "mp3_file": null},
@@ -23,7 +24,8 @@
 
   "AC/DC": {
     "songs": [
-      {"title": "Highway To Hell", "mp3_file": null}
+      {"title": "Highway To Hell", "mp3_file": null},
+      {"title": "Thunderstruck", "mp3_file": null}
     ]
   },
   "Aerosmith": {
@@ -206,6 +208,12 @@
   "Bright Eyes": {
     "songs": [
       {"title": "First Day of my Life", "mp3_file": null}
+    ]
+  },
+  "Bring Me The Horizon": {
+    "songs": [
+      {"title": "Follow You", "mp3_file": null},
+      {"title": "Throne", "mp3_file": null}
     ]
   },
   "Britney Spears": {
@@ -968,6 +976,11 @@
   "Of Monsters and Men": {
     "songs": [
       {"title": "Little Talks", "mp3_file": null}
+    ]
+  },
+    "Olivia Rodrigo": {
+    "songs": [
+      {"title": "Vampire", "mp3_file": null}
     ]
   },
   "Owl City": {
